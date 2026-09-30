@@ -1,0 +1,108 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:54:41.816Z",
+    "serviceName": "Facebook",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://developers.facebook.com/terms?locale=en_US",
+        "select": [
+          "#rebrandBodyID"
+        ],
+        "remove": [
+          "#devsite_header",
+          "img"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "_nc_gid",
+              "h",
+              "oh",
+              "oe",
+              "ur"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "32e9e21a81bef178dc6af07803cf5c1b4dc891bb"
+      },
+      {
+        "id": "devpolicy",
+        "fetch": "https://developers.facebook.com/devpolicy?locale=en_US",
+        "select": [
+          "#rebrandBodyID"
+        ],
+        "remove": [
+          "#devsite_header",
+          "img"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "_nc_gid",
+              "h",
+              "oh",
+              "oe",
+              "ur"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "cd1b2867c0eeff2e8b7b5ef8207e6808ef0f1442"
+      },
+      {
+        "id": "policy-credits",
+        "fetch": "https://developers.facebook.com/policy/credits?locale=en_US",
+        "select": [
+          "#rebrandBodyID"
+        ],
+        "remove": [
+          "#devsite_header",
+          "img"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "_nc_gid",
+              "h",
+              "oh",
+              "oe",
+              "ur"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "639653f9c45a1c333231ae4937f739d8b0bb72ae"
+      },
+      {
+        "id": "policies-other-policies-ip-reporting-api",
+        "fetch": "https://transparency.meta.com/policies/other-policies/ip-reporting-api",
+        "select": [
+          "#mdc-main-content"
+        ],
+        "remove": [
+          "nav"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "_nc_gid",
+              "h",
+              "oh",
+              "oe",
+              "ur"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "d530cfad32d4c09944fd18215a7dc0baba005482"
+      }
+    ]
+  }
+}
