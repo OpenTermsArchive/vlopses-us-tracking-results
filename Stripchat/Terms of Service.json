@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:20:50.556Z",
+    "serviceName": "Stripchat",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://stripchat.com/terms",
+        "select": [
+          ".term-of-use-page"
+        ],
+        "remove": [
+          ".language-dropdown",
+          "span",
+          ".page-section-notes"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "981a7c816a151cdea786ab08b2afcaf7062a1eb5"
+      }
+    ]
+  }
+}
