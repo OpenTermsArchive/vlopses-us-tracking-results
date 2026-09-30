@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:28.171Z",
+    "serviceName": "App Store",
+    "sourceDocuments": [
+      {
+        "id": "app-store-marketing-guidelines",
+        "fetch": "https://developer.apple.com/app-store/marketing/guidelines/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "img",
+          "hero-nav",
+          "a[data-agreement-id='download-agreement']"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "f65dc87501cd56db87cbb8e9908fa20813798d05"
+      },
+      {
+        "id": "legal-intellectual-property-guidelinesfor3rdparties",
+        "fetch": "https://www.apple.com/legal/intellectual-property/guidelinesfor3rdparties.html",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "2d89b30cf7121f9ef78c3006bf3efd3870b71174"
+      },
+      {
+        "id": "legal-intellectual-property-trademark-appletmlist",
+        "fetch": "https://www.apple.com/legal/intellectual-property/trademark/appletmlist.html",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "f8132b10446aadfad089353839a9690d64261b27"
+      }
+    ]
+  }
+}
