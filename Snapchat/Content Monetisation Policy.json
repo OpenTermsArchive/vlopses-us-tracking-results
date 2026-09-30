@@ -1,0 +1,31 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:20:42.573Z",
+    "serviceName": "Snapchat",
+    "sourceDocuments": [
+      {
+        "id": "policy-creator-monetization-policy",
+        "fetch": "https://values.snap.com/policy/creator-monetization-policy",
+        "select": "main",
+        "remove": [
+          "header",
+          "footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d1078f6ce1715e3e21374a43f84f57d3e7b2c5d2"
+      },
+      {
+        "id": "monetization-terms",
+        "fetch": "https://www.snap.com/monetization-terms",
+        "select": "main",
+        "remove": [
+          "header",
+          "footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "5f30f06685f5f1c77bc85fb68bf7dc3e49e75bdc"
+      }
+    ]
+  }
+}
