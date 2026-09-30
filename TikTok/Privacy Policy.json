@@ -1,0 +1,30 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:22:28.166Z",
+    "serviceName": "TikTok",
+    "sourceDocuments": [
+      {
+        "id": "legal-page-us-privacy-policy-en",
+        "fetch": "https://www.tiktok.com/legal/page/us/privacy-policy/en",
+        "select": "#policy-card",
+        "mimeType": "text/html",
+        "snapshotId": "21e38054f25c0af4a448ec5408d9669e1024579b"
+      },
+      {
+        "id": "legal-page-global-privacy-policy-for-younger-users-en",
+        "fetch": "https://www.tiktok.com/legal/page/global/privacy-policy-for-younger-users/en",
+        "select": "#policy-card",
+        "mimeType": "text/html",
+        "snapshotId": "d3ea7e7bcd2bbbe20afc71985cd843e33f4c5be1"
+      },
+      {
+        "id": "legal-page-global-tiktok-ad-network-privacy-policy-en",
+        "fetch": "https://www.tiktok.com/legal/page/global/tiktok-ad-network-privacy-policy/en",
+        "select": "#policy-card",
+        "mimeType": "text/html",
+        "snapshotId": "4db98548665a9d21d95ae0db3eb5ee5f71dab70a"
+      }
+    ]
+  }
+}
