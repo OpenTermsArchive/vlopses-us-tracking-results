@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:20:17.655Z",
+    "serviceName": "Shein",
+    "sourceDocuments": [
+      {
+        "id": "Accessibility-a-1024",
+        "fetch": "https://us.shein.com/Accessibility-a-1024.html",
+        "select": "#j-new-article-bff",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "02a27b112b28ab2e5a44111a4c016ce4aa3f154d"
+      }
+    ]
+  }
+}
