@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:22:49.201Z",
+    "serviceName": "TikTok",
+    "sourceDocuments": [
+      {
+        "id": "safety-en-tools-and-guides-tiktok-law-enforcement-guidelines",
+        "fetch": "https://www.tiktok.com/safety/en/tools-and-guides/tiktok-law-enforcement-guidelines",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "header",
+          "footer"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "3a06d5e1e48263f165e2cd6d150aec36ab1a7b38"
+      }
+    ]
+  }
+}
