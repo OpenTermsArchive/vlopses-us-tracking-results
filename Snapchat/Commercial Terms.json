@@ -1,0 +1,65 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:20:48.129Z",
+    "serviceName": "Snapchat",
+    "sourceDocuments": [
+      {
+        "id": "terms-snap-conversion",
+        "fetch": "https://www.snap.com/terms/snap-conversion?lang=en-US",
+        "select": ".sdsm-page",
+        "mimeType": "text/html",
+        "snapshotId": "0dcb888444a7926a963d7dcc7d9f9c8065b607fb"
+      },
+      {
+        "id": "terms-snap-audience-match",
+        "fetch": "https://www.snap.com/terms/snap-audience-match?lang=en-US",
+        "select": ".sdsm-page",
+        "mimeType": "text/html",
+        "snapshotId": "ebeb3cf77ad587c128cef0a0f5e9171faf4be8eb"
+      },
+      {
+        "id": "terms-cst",
+        "fetch": "https://www.snap.com/terms/cst?lang=en-US",
+        "select": ".sdsm-page",
+        "mimeType": "text/html",
+        "snapshotId": "43e38a457a8818f1e36d6a9eaffd71811c3a1bf4"
+      },
+      {
+        "id": "terms-catalog",
+        "fetch": "https://www.snap.com/terms/catalog?lang=en-US",
+        "select": ".sdsm-page",
+        "mimeType": "text/html",
+        "snapshotId": "2193eccffc2b5a3102028059eb6251e12105c14a"
+      },
+      {
+        "id": "terms-self-serve-advertising",
+        "fetch": "https://www.snap.com/terms/self-serve-advertising?lang=en-US",
+        "select": ".sdsm-page",
+        "mimeType": "text/html",
+        "snapshotId": "0d1b97e679b6f87e07807114d278bf844fe81bab"
+      },
+      {
+        "id": "terms-local",
+        "fetch": "https://www.snap.com/terms/local?lang=en-US",
+        "select": ".sdsm-page",
+        "mimeType": "text/html",
+        "snapshotId": "bcbaa63f654749969d0862de1ff3f86b34701f06"
+      },
+      {
+        "id": "terms-business-services",
+        "fetch": "https://www.snap.com/terms/business-services?lang=en-US",
+        "select": ".sdsm-page",
+        "mimeType": "text/html",
+        "snapshotId": "b470520186e5a463f17ab70d64bb3ad86dd631ee"
+      },
+      {
+        "id": "terms-payment",
+        "fetch": "https://www.snap.com/terms/payment?lang=en-US",
+        "select": ".sdsm-page",
+        "mimeType": "text/html",
+        "snapshotId": "91571cac6dbe30d9aba406609a14803627785788"
+      }
+    ]
+  }
+}
