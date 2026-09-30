@@ -1,0 +1,61 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:13:35.052Z",
+    "serviceName": "Google Shopping",
+    "sourceDocuments": [
+      {
+        "id": "adscontrollerterms",
+        "fetch": "https://business.safety.google/adscontrollerterms/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "script"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "10c7ed39000eaed91d1cdb0787b5322e10d15e4a"
+      },
+      {
+        "id": "merchants-answer-7125797",
+        "fetch": "https://support.google.com/merchants/answer/7125797",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "dd46f38915f49efd71d1f05cba83b1021a911e4e"
+      },
+      {
+        "id": "technologies-ads",
+        "fetch": "https://policies.google.com/technologies/ads",
+        "select": [
+          "#main-content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "2aa17fccd8cc50c1b5fa9d986dc4e05d0ab676fd"
+      },
+      {
+        "id": "pipa",
+        "fetch": "https://business.safety.google/pipa/",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "2cc95c801f775f4561ed06fb9143c6673612dc98"
+      },
+      {
+        "id": "usdataprotectionlaws",
+        "fetch": "https://business.safety.google/usdataprotectionlaws/",
+        "select": [
+          "main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "3e27c10362f9d80ed6ac9007b7ffc2d17491abed"
+      }
+    ]
+  }
+}
