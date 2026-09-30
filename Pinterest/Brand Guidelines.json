@@ -1,0 +1,32 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:18:18.791Z",
+    "serviceName": "Pinterest",
+    "sourceDocuments": [
+      {
+        "id": "en-brand-guidelines",
+        "fetch": "https://business.pinterest.com/en/brand-guidelines",
+        "select": [
+          "[data-test-id=\"content\"]"
+        ],
+        "remove": [
+          "img"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "2bf8abd4b3b6b17d27102bd4ae4c1662c6b167a1"
+      },
+      {
+        "id": "en-trademark",
+        "fetch": "https://policy.pinterest.com/en/trademark",
+        "select": "main",
+        "remove": "aside",
+        "mimeType": "text/html",
+        "snapshotId": "c494adaa98ce8868b8ac7011206f7976ea899e1b"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"[data-test-id=\\\"content\\\"]\"]\" matches an empty content in the web page at 'https://business.pinterest.com/en/brand-guidelines'"
+    ]
+  }
+}
