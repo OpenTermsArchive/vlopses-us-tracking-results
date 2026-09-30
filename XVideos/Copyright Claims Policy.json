@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:33:43.402Z",
+    "serviceName": "XVideos",
+    "sourceDocuments": [
+      {
+        "id": "legal-piracy",
+        "fetch": "https://info.xvideos.net/legal/piracy",
+        "select": [
+          "#main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "57d10ad6d54e9d2f251be35389775b7c398e80fd"
+      },
+      {
+        "id": "content-fingerprint",
+        "fetch": "https://info.xvideos.net/content/fingerprint",
+        "select": [
+          "#main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "72642f7624e68a40335eba0a1bfd99c2044ba73b"
+      }
+    ]
+  }
+}
