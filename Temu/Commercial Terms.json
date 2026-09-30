@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:22:13.988Z",
+    "serviceName": "Temu",
+    "sourceDocuments": [
+      {
+        "id": "library-faqs",
+        "fetch": "https://ads.temu.com/library/faqs.html",
+        "select": [
+          "#main"
+        ],
+        "remove": [
+          "._2g8FBaKi",
+          "._2qaWTLpm"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "c90c6cd4392dd7b6ac2377394898ac6925c597d7"
+      }
+    ]
+  }
+}
