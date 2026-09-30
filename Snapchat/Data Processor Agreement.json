@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:20:41.576Z",
+    "serviceName": "Snapchat",
+    "sourceDocuments": [
+      {
+        "id": "terms-data-processing-agreement",
+        "fetch": "https://www.snap.com/terms/data-processing-agreement",
+        "select": "main",
+        "remove": [
+          "header",
+          "footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "1ae2bfa8448f2806657460d738edce599eee8d7c"
+      }
+    ]
+  }
+}
