@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:25:55.284Z",
+    "serviceName": "WhatsApp",
+    "sourceDocuments": [
+      {
+        "id": "legal-channels-guidelines",
+        "fetch": "https://www.whatsapp.com/legal/channels-guidelines",
+        "select": "#content-wrapper",
+        "remove": [
+          "[href='#top-of-page']"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "98f8760c0d701e47cf7c05c5f01d70c78ce0e881"
+      }
+    ]
+  }
+}
