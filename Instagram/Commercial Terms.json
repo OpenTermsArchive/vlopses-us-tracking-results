@@ -1,0 +1,31 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:17:36.532Z",
+    "serviceName": "Instagram",
+    "sourceDocuments": [
+      {
+        "id": "legal-commercial_terms",
+        "fetch": "https://www.facebook.com/legal/commercial_terms?locale=en_US",
+        "select": [
+          {
+            "startBefore": "div[role=\"main\"]",
+            "endBefore": "div[role=\"separator\"]"
+          }
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h",
+              "_nc_gid",
+              "oh"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "0b43e38b44950642a2070d98556d08008685453b"
+      }
+    ]
+  }
+}
