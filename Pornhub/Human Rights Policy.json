@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:19:17.590Z",
+    "serviceName": "Pornhub",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-4419874097683-Mental-Health",
+        "fetch": "https://help.pornhub.com/hc/en-us/articles/4419874097683-Mental-Health",
+        "select": [
+          "h1",
+          ".article__body"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "5d3673aa70446e9ab3a592307e2bbde505c6ea25"
+      },
+      {
+        "id": "hc-en-us-articles-4419883155347-Sexual-Wellness-Center",
+        "fetch": "https://help.pornhub.com/hc/en-us/articles/4419883155347-Sexual-Wellness-Center",
+        "select": [
+          "h1",
+          ".article__body"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "c95ece282cd5a5a09c270da000636467ddd8a0da"
+      }
+    ]
+  }
+}
