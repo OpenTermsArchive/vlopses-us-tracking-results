@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:30:10.159Z",
+    "serviceName": "AliExpress",
+    "sourceDocuments": [
+      {
+        "id": "legal-agreement-terms-suit_bu1_aliexpress-suit_bu1_aliexpress202204182115_37406",
+        "fetch": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_aliexpress/suit_bu1_aliexpress202204182115_37406.html",
+        "select": [
+          "#ddReader"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "60934408f93d959e3d5452f567dca02d99096af2"
+      },
+      {
+        "id": "legal-agreement-terms-suit_bu1_aliexpress-suit_bu1_aliexpress202204182115_66077",
+        "fetch": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_aliexpress/suit_bu1_aliexpress202204182115_66077.html",
+        "select": [
+          "#ddReader"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "83e61f9184cbb6733ebc72fa03d7f4e3d2955c99"
+      },
+      {
+        "id": "legal-agreement-terms-c_platform_service_agreement-20230925183441576-20230925183441576",
+        "fetch": "https://terms.alicdn.com/legal-agreement/terms/c_platform_service_agreement/20230925183441576/20230925183441576.html",
+        "select": [
+          "#ddReader"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "2ee9c3bffdaa503f478fbd58e8a338cd2d724db5"
+      }
+    ]
+  }
+}
