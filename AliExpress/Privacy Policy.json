@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:30:37.723Z",
+    "serviceName": "AliExpress",
+    "sourceDocuments": [
+      {
+        "id": "legal-agreement-terms-suit_bu1_aliexpress-suit_bu1_aliexpress201909171350_82407",
+        "fetch": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_aliexpress/suit_bu1_aliexpress201909171350_82407.html",
+        "select": [
+          ".agreementpreview"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "c01e8928249043c9e3cb8ce5d44a15593b0f8969"
+      }
+    ]
+  }
+}
