@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:20:30.510Z",
+    "serviceName": "Snapchat",
+    "sourceDocuments": [
+      {
+        "id": "cookie-policy",
+        "fetch": "https://www.snap.com/cookie-policy?lang=en-US",
+        "select": "main",
+        "remove": [
+          "header",
+          "footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "296bc8a29429311a2469c2d88445d3090f8f0d78"
+      }
+    ]
+  }
+}
