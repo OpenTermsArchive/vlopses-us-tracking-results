@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:30:35.629Z",
+    "serviceName": "AliExpress",
+    "sourceDocuments": [
+      {
+        "id": "legal-agreement-terms-c_end_product_protocol-20240204100040824-20240204100040824",
+        "fetch": "https://terms.alicdn.com/legal-agreement/terms/c_end_product_protocol/20240204100040824/20240204100040824.html",
+        "select": [
+          "#ddReader"
+        ],
+        "remove": [
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "ec103c7d8d557be094dabdcb8f04dc82605505c3"
+      },
+      {
+        "id": "legal-agreement-terms-suit_bu1_b2b-suit_bu1_b2b201906251608_13446",
+        "fetch": "https://terms.alicdn.com/legal-agreement/terms/suit_bu1_b2b/suit_bu1_b2b201906251608_13446.html",
+        "select": [
+          ".agreementpreview"
+        ],
+        "remove": [
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "2f9e2e2d2a7fef65589bf17934f02931e7740c1a"
+      }
+    ]
+  }
+}
