@@ -1,0 +1,42 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:19:36.048Z",
+    "serviceName": "Shein",
+    "sourceDocuments": [
+      {
+        "id": "us-Privacy-Security-Policy-a-282",
+        "fetch": "https://us.shein.com/us/Privacy-Security-Policy-a-282.html",
+        "select": [
+          "#j-security-article"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "e68cf6ccb74bf12df8f0aa4cf8cad22cb009b928"
+      },
+      {
+        "id": "privacy-policy",
+        "fetch": "https://www.sheingroup.com/privacy-policy/",
+        "select": [
+          "h2",
+          "article"
+        ],
+        "remove": [
+          "header",
+          "footer"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "8360d8fa8da6449af2a9e44687c6919aa83a96d8"
+      },
+      {
+        "id": "Privacy-Security-Policy-a-282",
+        "fetch": "https://us.shein.com/Privacy-Security-Policy-a-282.html",
+        "select": "#j-security-article",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "13e75a87d3a3d5ca00eb25a56a7d9457effffe58"
+      }
+    ]
+  }
+}
