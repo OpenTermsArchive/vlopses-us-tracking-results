@@ -1,0 +1,90 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:20:23.372Z",
+    "serviceName": "Snapchat",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://www.snap.com/terms?lang=en-US",
+        "select": "main",
+        "remove": [
+          "header",
+          ".sdsm-side-navigation",
+          ".footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "6d137fb94aebde07ddccd82884b1b88ecddf8d38"
+      },
+      {
+        "id": "terms-paid-features",
+        "fetch": "https://www.snap.com/terms/paid-features?lang=en-US",
+        "select": "main",
+        "remove": [
+          "header",
+          ".footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "155a83a31e7937453ae739979edcedcef0e3fc68"
+      },
+      {
+        "id": "terms-my-selfie",
+        "fetch": "https://www.snap.com/terms/my-selfie?lang=en-US",
+        "select": "main",
+        "remove": [
+          "header",
+          ".footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "410d9db291635ed7f1b62278c33769338e4c0c73"
+      },
+      {
+        "id": "policies-pcd",
+        "fetch": "https://www.snap.com/policies/pcd?lang=en-US",
+        "select": "main",
+        "remove": [
+          "header",
+          ".footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "fb797fc64fd34bd53a8d2d294cbb4ecbd9f97c83"
+      },
+      {
+        "id": "terms-create-geofilter",
+        "fetch": "https://www.snap.com/terms/create-geofilter?lang=en-US",
+        "select": "main",
+        "remove": [
+          "header",
+          ".footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "675bcb32bc2549e82f13cc425a592b06f5e460ce"
+      },
+      {
+        "id": "terms-lens-studio-terms",
+        "fetch": "https://www.snap.com/terms/lens-studio-terms?lang=en-US",
+        "select": "main",
+        "remove": [
+          "header",
+          ".footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "82bc632b44b172436782c004e9a7fe23fcdda026"
+      },
+      {
+        "id": "terms-ai-tools",
+        "fetch": "https://www.snap.com/terms/ai-tools?lang=en-US",
+        "select": ".sdsm-page",
+        "mimeType": "text/html",
+        "snapshotId": "db7761f78fadb3dcb99a15b933682c1d21689da6"
+      },
+      {
+        "id": "terms-us-amendment",
+        "fetch": "https://www.snap.com/terms/us-amendment",
+        "select": ".sdsm-page",
+        "mimeType": "text/html",
+        "snapshotId": "23a919548a687e6a0002a01187520b9a2dd53035"
+      }
+    ]
+  }
+}
