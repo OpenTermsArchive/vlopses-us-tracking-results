@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:26:31.771Z",
+    "serviceName": "X",
+    "sourceDocuments": [
+      {
+        "id": "en-rules-and-policies-x-cookies",
+        "fetch": "https://help.x.com/en/rules-and-policies/x-cookies",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "65d42da3c9d91e2df0c70820217613112eac32f1"
+      }
+    ]
+  }
+}
