@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:20:36.603Z",
+    "serviceName": "Snapchat",
+    "sourceDocuments": [
+      {
+        "id": "content-recommendation-guidelines",
+        "fetch": "https://www.snap.com/content-recommendation-guidelines",
+        "select": "main",
+        "remove": [
+          "header",
+          "footer"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "1ad0f13c80d80ced927802c1def6e66692c6d1cb"
+      }
+    ]
+  }
+}
