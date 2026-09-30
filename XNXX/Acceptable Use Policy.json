@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:33:38.581Z",
+    "serviceName": "XNXX",
+    "sourceDocuments": [
+      {
+        "id": "legal-control",
+        "fetch": "https://info.xnxx.com/legal/control",
+        "select": [
+          "#main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "7bf0eaff0cc4b5eed7eb76e44f706e4ae6b43236"
+      },
+      {
+        "id": "parents",
+        "fetch": "https://info.xnxx.com/parents",
+        "select": [
+          "#main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "eae55d5d4b2810cf4fe6f042dfd33ec984c0cd00"
+      }
+    ]
+  }
+}
