@@ -1,0 +1,36 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:20:00.578Z",
+    "serviceName": "Shein",
+    "sourceDocuments": [
+      {
+        "id": "us-copyright-noticeam-a-379",
+        "fetch": "https://m.shein.com/us/copyright-noticeam-a-379.html?lang=us",
+        "select": [
+          ".sui-title-nav__title",
+          ".article-con-item"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "536d6f6b0fb2916c42977ce1eba50ad7e5405381"
+      },
+      {
+        "id": "ipp",
+        "fetch": "https://ipp.shein.com/ipp?code=20240730201923799773",
+        "select": "#property_content_detail",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "d5c48c996fa8419e1c05a48ad73d94095b39eb09"
+      },
+      {
+        "id": "ipp",
+        "fetch": "https://ipp.shein.com/ipp?code=20240730192620775058",
+        "select": "#property_content_detail",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "d5c48c996fa8419e1c05a48ad73d94095b39eb09"
+      }
+    ]
+  }
+}
