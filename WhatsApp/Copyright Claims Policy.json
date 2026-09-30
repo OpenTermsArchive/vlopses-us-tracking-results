@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:25:08.938Z",
+    "serviceName": "WhatsApp",
+    "sourceDocuments": [
+      {
+        "id": "legal-ip-policy",
+        "fetch": "https://www.whatsapp.com/legal/ip-policy",
+        "select": "#content-wrapper",
+        "remove": [
+          "[href='#top-of-page']"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "38b717dfcfc2b997f30facf39b7c388ffd77ee3a"
+      }
+    ]
+  }
+}
