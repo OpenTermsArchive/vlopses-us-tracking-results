@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:10:27.399Z",
+    "serviceName": "Google Maps",
+    "sourceDocuments": [
+      {
+        "id": "terms",
+        "fetch": "https://policies.google.com/terms",
+        "select": "#main-content",
+        "remove": [
+          "header",
+          ".Uh4Mac",
+          ".VF3nCf",
+          "div[jscontroller=\"FqLSBc\"]"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "7ae3bab7e824d29f9d2fe5681d1069640c03b4c9"
+      },
+      {
+        "id": "help-terms_maps",
+        "fetch": "https://www.google.com/help/terms_maps",
+        "select": ".main-article",
+        "remove": [
+          "img"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "93e646fce29268cb19b477afd150a043b42f8f53"
+      },
+      {
+        "id": "business-answer-9292476",
+        "fetch": "https://support.google.com/business/answer/9292476",
+        "select": ".article-container",
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "a[href^=\"/business/contact/\"]",
+          "h2:contains(\"Related resources\")"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "3f46f4172cff447cd9d1a123f73e1250857b0a38"
+      }
+    ]
+  }
+}
