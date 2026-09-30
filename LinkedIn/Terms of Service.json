@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:17:43.134Z",
+    "serviceName": "LinkedIn",
+    "sourceDocuments": [
+      {
+        "id": "legal-user-agreement",
+        "fetch": "https://www.linkedin.com/legal/user-agreement",
+        "select": "main",
+        "remove": "div.banner__image-container",
+        "mimeType": "text/html",
+        "snapshotId": "ec1834ef05da87c9c399541b6a4821eb506a28cd"
+      }
+    ]
+  }
+}
