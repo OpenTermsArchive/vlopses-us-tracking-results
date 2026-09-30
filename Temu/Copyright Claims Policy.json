@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:21:36.923Z",
+    "serviceName": "Temu",
+    "sourceDocuments": [
+      {
+        "id": "intellectual-property-policy",
+        "fetch": "https://www.temu.com/intellectual-property-policy.html",
+        "select": [
+          "#policyContent"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "e0b67555eacfdd38792c996ece70e1690806a5a9"
+      }
+    ]
+  }
+}
