@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:27:08.837Z",
+    "serviceName": "X",
+    "sourceDocuments": [
+      {
+        "id": "en-rules-and-policies-copyright-policy",
+        "fetch": "https://help.x.com/en/rules-and-policies/copyright-policy",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "01b6522222b78d1376bc75619879d085b21ec676"
+      },
+      {
+        "id": "en-rules-and-policies-automated-claims-policy",
+        "fetch": "https://help.x.com/en/rules-and-policies/automated-claims-policy",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "c9c9c3b196acfba975d1d7a96913ad294c04b14a"
+      }
+    ]
+  }
+}
