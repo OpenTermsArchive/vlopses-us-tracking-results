@@ -1,0 +1,168 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:54:00.395Z",
+    "serviceName": "Facebook",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policy-printable",
+        "fetch": "https://mbasic.facebook.com/privacy/policy/printable?locale=en_US",
+        "select": [
+          "#root"
+        ],
+        "remove": [
+          "img",
+          "span",
+          "[href=\"#\"]",
+          ".bi",
+          "a[aria-label=\"Watch video\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h",
+              "_nc_cat",
+              "_nc_gid",
+              "_nc_ohc",
+              "oh",
+              "oe",
+              "efg",
+              "bitrate",
+              "lid",
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "448fe0b234a01ad9c7360795354d7d63fa8d0b73"
+      },
+      {
+        "id": "privacy-genai",
+        "fetch": "https://mbasic.facebook.com/privacy/genai?locale=en_US",
+        "select": [
+          "[role=\"main\"]"
+        ],
+        "remove": [
+          "img",
+          "span",
+          "[href=\"#\"]",
+          "#genai_more_resources"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h",
+              "_nc_cat",
+              "_nc_gid",
+              "_nc_ohc",
+              "oh",
+              "oe",
+              "efg",
+              "bitrate",
+              "lid",
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "b27bd1664a5684c4f4b362d6c153bcefe3236660"
+      },
+      {
+        "id": "privacy-policies-uso-printablelocale=en_US",
+        "fetch": "https://mbasic.facebook.com/privacy/policies/uso/printablelocale=en_US",
+        "select": [
+          "#root"
+        ],
+        "remove": [
+          "img",
+          "span",
+          "[href=\"#\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h",
+              "_nc_cat",
+              "_nc_gid",
+              "_nc_ohc",
+              "oh",
+              "oe",
+              "efg",
+              "bitrate",
+              "lid",
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "d5c7f06b2f83e38d41bbcd15caf292cd5bea6309"
+      },
+      {
+        "id": "policies-other-policies-meta-ai-verification-terms",
+        "fetch": "https://transparency.meta.com/policies/other-policies/meta-ai-verification-terms",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          "a[href*=\"mbasic.facebook.com/video_redirect\"]",
+          "a[aria-label=\"Watch video\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h",
+              "_nc_cat",
+              "_nc_gid",
+              "_nc_ohc",
+              "oh",
+              "oe",
+              "efg",
+              "bitrate",
+              "lid",
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "f6726652a1e569c91bd29558a0018af367583397"
+      },
+      {
+        "id": "legal-meta-AI-disclosures",
+        "fetch": "https://www.facebook.com/legal/meta-AI-disclosures",
+        "select": [
+          {
+            "startBefore": "div[role=main]",
+            "endBefore": "[role=\"separator\"]"
+          }
+        ],
+        "remove": [
+          "a[href*=\"mbasic.facebook.com/video_redirect\"]",
+          "a[aria-label=\"Watch video\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h",
+              "_nc_cat",
+              "_nc_gid",
+              "_nc_ohc",
+              "oh",
+              "oe",
+              "efg",
+              "bitrate",
+              "lid",
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "097d08c484ec68fecd866046a14b55af2cf21834"
+      }
+    ]
+  }
+}
