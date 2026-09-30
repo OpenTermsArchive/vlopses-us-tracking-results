@@ -1,0 +1,33 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:20:07.905Z",
+    "serviceName": "Shein",
+    "sourceDocuments": [
+      {
+        "id": "files-44sbcf22-production-31185f1d62bced750f90379c8eb01072fc745b0c",
+        "fetch": "https://cdn.sanity.io/files/44sbcf22/production/31185f1d62bced750f90379c8eb01072fc745b0c.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "e844381bda0ab00c7c2a38629d84f4e5d8fd57e5"
+      },
+      {
+        "id": "files-44sbcf22-production-d7451fb1ffda7d07f523f295c644695862cf429a",
+        "fetch": "https://cdn.sanity.io/files/44sbcf22/production/d7451fb1ffda7d07f523f295c644695862cf429a.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "87402e59b0b2a6e6c21036f9aa8b923f3acba64f"
+      },
+      {
+        "id": "files-44sbcf22-production-ff89ff5f37c505b7fe4ef33221ce895a3c8d895c",
+        "fetch": "https://cdn.sanity.io/files/44sbcf22/production/ff89ff5f37c505b7fe4ef33221ce895a3c8d895c.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "c45012cfef04dd4fa64d5cc8158bd708fd735e74"
+      },
+      {
+        "id": "files-44sbcf22-production-6a6e043a116e38ba8a996857df34682ba5810e79",
+        "fetch": "https://cdn.sanity.io/files/44sbcf22/production/6a6e043a116e38ba8a996857df34682ba5810e79.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "4f3adfa825d4d062d6407e3582ff116427b266f3"
+      }
+    ]
+  }
+}
