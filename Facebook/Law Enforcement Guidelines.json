@@ -1,0 +1,30 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:55:44.252Z",
+    "serviceName": "Facebook",
+    "sourceDocuments": [
+      {
+        "id": "safety-communities-law-guidelines",
+        "fetch": "https://www.meta.com/safety/communities/law/guidelines/",
+        "select": [
+          "#safetyCenterContentContainer"
+        ],
+        "remove": [
+          ".heroImage",
+          "[class~=_aiba]",
+          "img"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "414a39d808bd6527ee442e1e881f514c975e07f0"
+      }
+    ]
+  }
+}
