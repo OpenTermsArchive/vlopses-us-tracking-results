@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:25:06.471Z",
+    "serviceName": "WhatsApp",
+    "sourceDocuments": [
+      {
+        "id": "legal-cookies",
+        "fetch": "https://www.whatsapp.com/legal/cookies",
+        "select": [
+          "#content-wrapper"
+        ],
+        "remove": [
+          "[href='#top-of-page']"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "39a42beebc73224ddaec0f063bef02616763ccdc"
+      }
+    ]
+  }
+}
