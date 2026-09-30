@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:10:36.255Z",
+    "serviceName": "Google Maps",
+    "sourceDocuments": [
+      {
+        "id": "controllerterms",
+        "fetch": "https://business.safety.google/controllerterms/",
+        "select": ".glue-page",
+        "mimeType": "text/html",
+        "snapshotId": "5ca83c7f7d8d16e59c44a6e0a3154f77ec9330da"
+      }
+    ]
+  }
+}
