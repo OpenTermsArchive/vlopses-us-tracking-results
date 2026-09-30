@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:26:06.064Z",
+    "serviceName": "Wikipedia",
+    "sourceDocuments": [
+      {
+        "id": "wiki-Policy_Universal_Code_of_Conduct",
+        "fetch": "https://foundation.wikimedia.org/wiki/Policy:Universal_Code_of_Conduct",
+        "select": [
+          "#bodyContent"
+        ],
+        "remove": [
+          ".mw-pt-languages-label",
+          ".mw-pt-languages-list",
+          "#mw-content-subtitle",
+          "#catlinks"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "1e8860dd954963c5aa42fc233ebcc867991f76e2"
+      },
+      {
+        "id": "wiki-Code_of_Conduct",
+        "fetch": "https://www.mediawiki.org/wiki/Code_of_Conduct",
+        "select": [
+          "#bodyContent"
+        ],
+        "remove": [
+          ".mw-pt-languages-label",
+          ".mw-pt-languages-list",
+          "#mw-content-subtitle",
+          "#catlinks"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "7f89efee547c30bab59cafd784daa2c8d117fac3"
+      }
+    ]
+  }
+}
