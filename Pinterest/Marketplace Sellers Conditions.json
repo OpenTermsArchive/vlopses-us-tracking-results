@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:18:21.602Z",
+    "serviceName": "Pinterest",
+    "sourceDocuments": [
+      {
+        "id": "en-merchant-guidelines",
+        "fetch": "https://policy.pinterest.com/en/merchant-guidelines",
+        "select": "main",
+        "remove": "aside",
+        "mimeType": "text/html",
+        "snapshotId": "0cb1e3c507a4e896ace6971a15a48744b33f6816"
+      }
+    ]
+  }
+}
