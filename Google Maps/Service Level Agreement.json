@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:10:44.662Z",
+    "serviceName": "Google Maps",
+    "sourceDocuments": [
+      {
+        "id": "maps-platform-terms-sla",
+        "fetch": "https://cloud.google.com/maps-platform/terms/sla",
+        "select": [
+          "#module-3",
+          "#module-5"
+        ],
+        "remove": [
+          "nav"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "41395d89abb71d3a370d855ec4d0627e3fb2bb51"
+      },
+      {
+        "id": "maps-platform-terms-tssg",
+        "fetch": "https://cloud.google.com/maps-platform/terms/tssg",
+        "select": [
+          "#google-maps-platform-technical-support-services-guidelines",
+          "#module-4"
+        ],
+        "remove": [
+          "nav"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "bfe90aa9c468ad20876587307b0fd401793bc968"
+      }
+    ]
+  }
+}
