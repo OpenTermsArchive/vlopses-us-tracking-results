@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:18:06.765Z",
+    "serviceName": "LinkedIn",
+    "sourceDocuments": [
+      {
+        "id": "help-linkedin-answer-a1340284-linkedin-law-enforcement-data-request-guidelines",
+        "fetch": "https://www.linkedin.com/help/linkedin/answer/a1340284/linkedin-law-enforcement-data-request-guidelines?lang=en",
+        "select": "main",
+        "remove": "div.article-details-content__aside",
+        "mimeType": "text/html",
+        "snapshotId": "ebe443b8e3536d2d5eb9525a4a7bb0ddb1d3fa11"
+      }
+    ]
+  }
+}
