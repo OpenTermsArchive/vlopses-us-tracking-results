@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:20:15.660Z",
+    "serviceName": "Shein",
+    "sourceDocuments": [
+      {
+        "id": "imprint-a-746",
+        "fetch": "https://us.shein.com/imprint-a-746.html",
+        "select": "#j-new-article-bff",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "0da13b33549ff6d4d2f82152ec411a6776717263"
+      }
+    ]
+  }
+}
