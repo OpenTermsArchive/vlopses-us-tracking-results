@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:22:49.901Z",
+    "serviceName": "TikTok",
+    "sourceDocuments": [
+      {
+        "id": "legal-page-global-tiktok-website-cookies-policy-en",
+        "fetch": "https://www.tiktok.com/legal/page/global/tiktok-website-cookies-policy/en",
+        "select": [
+          "#policy-card"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "13ce2c540bc3616895f1d15c401ef0088dd2042f"
+      }
+    ]
+  }
+}
