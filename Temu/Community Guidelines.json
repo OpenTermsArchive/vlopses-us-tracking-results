@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:21:28.035Z",
+    "serviceName": "Temu",
+    "sourceDocuments": [
+      {
+        "id": "review_guidelines",
+        "fetch": "https://www.temu.com/review_guidelines.html",
+        "select": [
+          ".mainContent"
+        ],
+        "remove": [
+          "#mainHeader",
+          "img",
+          "nav",
+          "footer"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "33dd7bb7e95f2303e6a88776f9166bf0bfbfeae9"
+      },
+      {
+        "id": "community-guidelines",
+        "fetch": "https://www.temu.com/community-guidelines.html",
+        "select": [
+          "#policyContent"
+        ],
+        "remove": [
+          "#mainHeader",
+          "img",
+          "nav",
+          "footer"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "fc563836c61b31fd734d5cae374b98af38a057d4"
+      }
+    ]
+  }
+}
