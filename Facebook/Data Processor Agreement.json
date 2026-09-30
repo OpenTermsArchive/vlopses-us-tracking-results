@@ -1,0 +1,49 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:55:31.276Z",
+    "serviceName": "Facebook",
+    "sourceDocuments": [
+      {
+        "id": "legal-terms-dataprocessing",
+        "fetch": "https://www.facebook.com/legal/terms/dataprocessing?locale=en_US",
+        "select": [
+          {
+            "startBefore": "div[role=main]",
+            "endBefore": "[role=\"separator\"]"
+          }
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "bfb483e9ecf671dc95eb8b9ce48fb95bb72c20db"
+      },
+      {
+        "id": "legal-terms-Privacy-GDTA",
+        "fetch": "https://www.facebook.com/legal/terms/Privacy/GDTA",
+        "select": [
+          {
+            "startBefore": "div[role=main]",
+            "endBefore": "[role=\"separator\"]"
+          }
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "8c6b721cf668a217ccad6c84515b5e1bc471d59e"
+      }
+    ]
+  }
+}
