@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:00.767Z",
+    "serviceName": "AliExpress",
+    "sourceDocuments": [
+      {
+        "id": "rule-channels-37978936-127561563",
+        "fetch": "https://rule.aliexpress.com/rule-channels/37978936/127561563",
+        "select": [
+          "#boxContent"
+        ],
+        "remove": [
+          "nav",
+          ".rule-footer-main"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "cc0004833841604ebfe6f98f0925dcfc1e38e670"
+      }
+    ]
+  }
+}
