@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:28.990Z",
+    "serviceName": "App Store",
+    "sourceDocuments": [
+      {
+        "id": "legal-privacy-data-en-apple-store-app",
+        "fetch": "https://www.apple.com/legal/privacy/data/en/apple-store-app/",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          ".typography-tout",
+          ".icon-language",
+          "img"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "bdac0b0340511706d4d41f35687754ea2e1e4a32"
+      }
+    ]
+  }
+}
