@@ -1,0 +1,31 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:17:45.911Z",
+    "serviceName": "LinkedIn",
+    "sourceDocuments": [
+      {
+        "id": "legal-privacy-policy",
+        "fetch": "https://www.linkedin.com/legal/privacy-policy",
+        "select": "main",
+        "remove": "div.banner__image-container",
+        "mimeType": "text/html",
+        "snapshotId": "edb679723be77a4098c80894c53aebbf7ac708d2"
+      },
+      {
+        "id": "legal-privacy-usa",
+        "fetch": "https://www.linkedin.com/legal/privacy/usa",
+        "select": "main",
+        "mimeType": "text/html",
+        "snapshotId": "210923451d56e61bf0cd4b693168c536c9e7de9c"
+      },
+      {
+        "id": "legal-california-privacy-disclosure",
+        "fetch": "https://www.linkedin.com/legal/california-privacy-disclosure",
+        "select": "main",
+        "mimeType": "text/html",
+        "snapshotId": "c13a3308d37512384f07c937388d266cbc793910"
+      }
+    ]
+  }
+}
