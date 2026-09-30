@@ -1,0 +1,497 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:13:31.751Z",
+    "serviceName": "Google Shopping",
+    "sourceDocuments": [
+      {
+        "id": "merchants-answer-6149970",
+        "fetch": "https://support.google.com/merchants/answer/6149970?hl=en",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "10a5b1f5fea53d4c49af58d63139bf07a348a28d"
+      },
+      {
+        "id": "merchants-answer-12073010",
+        "fetch": "https://support.google.com/merchants/answer/12073010?hl=en",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "465e8f387f8b4e93fc11e5a4e3576aa76b455841"
+      },
+      {
+        "id": "merchants-answer-12078092",
+        "fetch": "https://support.google.com/merchants/answer/12078092",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "bd5ae7c7d17f62500d6e13522d94878adbfe27f8"
+      },
+      {
+        "id": "merchants-answer-12079605",
+        "fetch": "https://support.google.com/merchants/answer/12079605",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "818e7306939d16b1a54f32aedc56aa07adb97573"
+      },
+      {
+        "id": "merchants-answer-12076889",
+        "fetch": "https://support.google.com/merchants/answer/12076889",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "b5774f96417c143a86cc2013478f38a73e14a08d"
+      },
+      {
+        "id": "merchants-answer-12079602",
+        "fetch": "https://support.google.com/merchants/answer/12079602",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d6a8581d912aaafdee8042e52e67d3622d5a847f"
+      },
+      {
+        "id": "merchants-answer-12077694",
+        "fetch": "https://support.google.com/merchants/answer/12077694",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a7c0e5817931972e3801dda4fd3affe9583b1f4a"
+      },
+      {
+        "id": "merchants-answer-12076987",
+        "fetch": "https://support.google.com/merchants/answer/12076987",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "8533878d5039e5981c1566f3f00374eeed99cf6e"
+      },
+      {
+        "id": "merchants-answer-12077185",
+        "fetch": "https://support.google.com/merchants/answer/12077185",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "569116199485d9cb4f65700a8d26470b9c78f1e1"
+      },
+      {
+        "id": "merchants-answer-12079606",
+        "fetch": "https://support.google.com/merchants/answer/12079606",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "c96add87186781b03c53d580aec2957c129ca28f"
+      },
+      {
+        "id": "merchants-answer-12077589",
+        "fetch": "https://support.google.com/merchants/answer/12077589",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "b6d7e23113c248932ef9ae8585c82fbebe215e06"
+      },
+      {
+        "id": "merchants-answer-12078091",
+        "fetch": "https://support.google.com/merchants/answer/12078091",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "287b684003f89d8bf46b6d511037091f8632b3d2"
+      },
+      {
+        "id": "merchants-answer-12078695",
+        "fetch": "https://support.google.com/merchants/answer/12078695",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d21fcb985b4800550c076035c181752febfd9d51"
+      },
+      {
+        "id": "merchants-answer-12079603",
+        "fetch": "https://support.google.com/merchants/answer/12079603",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "2c56a720be93889c7696bef20f20fb22a8c39212"
+      },
+      {
+        "id": "merchants-answer-12079201",
+        "fetch": "https://support.google.com/merchants/answer/12079201",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "034461e98744b0717dbf2ab19775497ae951ab87"
+      },
+      {
+        "id": "merchants-answer-13389785",
+        "fetch": "https://support.google.com/merchants/answer/13389785",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "cc07e9c8502fd7c15adf5d9991c6d39d2923de17"
+      },
+      {
+        "id": "merchants-answer-2877565",
+        "fetch": "https://support.google.com/merchants/answer/2877565",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "62c064c843529ded81a4d6a59f187439b6db4907"
+      },
+      {
+        "id": "merchants-answer-3271956",
+        "fetch": "https://support.google.com/merchants/answer/3271956",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "07d33a213503257c23e8c956f6d61324c4ec9088"
+      },
+      {
+        "id": "merchants-answer-7125796",
+        "fetch": "https://support.google.com/merchants/answer/7125796",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "50cdae032c332289f3cb6ed1e2e0969f1d74ddb1"
+      },
+      {
+        "id": "shopping-customerreviews-static-tos-us-1_01_tos",
+        "fetch": "https://www.google.com/shopping/customerreviews/static/tos/us/1_01_tos.html",
+        "select": [
+          "body"
+        ],
+        "remove": [
+          "script"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "b76528dfdf4402caf5e702685cddf3e8991572d1"
+      },
+      {
+        "id": "merchants-answer-14629803",
+        "fetch": "https://support.google.com/merchants/answer/14629803",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a36babe54c93d6867dc61e8a65d420bf13848452"
+      },
+      {
+        "id": "merchants-answer-7126006",
+        "fetch": "https://support.google.com/merchants/answer/7126006",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "b775b679ce1f62f58b25abc458cc34b9aa707677"
+      },
+      {
+        "id": "merchants-answer-7126007",
+        "fetch": "https://support.google.com/merchants/answer/7126007",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "c05ad63b531a0faedb3013a94af94e9112dd1ff7"
+      },
+      {
+        "id": "merchants-answer-7125798",
+        "fetch": "https://support.google.com/merchants/answer/7125798",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "59e196e0d7d90dc87f5c3234c5463c81fbd3dd69"
+      },
+      {
+        "id": "merchants-answer-6098512",
+        "fetch": "https://support.google.com/merchants/answer/6098512",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "baf0a22c3f77dff496f64aa29504d75012c0a03e"
+      },
+      {
+        "id": "merchants-answer-11544533",
+        "fetch": "https://support.google.com/merchants/answer/11544533",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "270c94cae23e720f242db608b583dab62aae4c1e"
+      },
+      {
+        "id": "merchants-answer-13425252",
+        "fetch": "https://support.google.com/merchants/answer/13425252",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "015b49ca00e8ee14e58db608203c2f83b0050db4"
+      },
+      {
+        "id": "merchants-answer-143465",
+        "fetch": "https://support.google.com/merchants/answer/143465",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "7b965355112d31acd7a2fcafb3251785389ce06b"
+      },
+      {
+        "id": "adspolicy-answer-7187501",
+        "fetch": "https://support.google.com/adspolicy/answer/7187501",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "717b89308941c9238d5fe4b4bdd1c1065174d716"
+      },
+      {
+        "id": "adspolicy-answer-143465",
+        "fetch": "https://support.google.com/adspolicy/answer/143465",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "24228ed28908378efcc560e8f5694c3e668b28f3"
+      },
+      {
+        "id": "adspolicy-answer-9841640",
+        "fetch": "https://support.google.com/adspolicy/answer/9841640",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "5bd4ac51fad10bfc91ee9c199a43fe32f40e21c7"
+      },
+      {
+        "id": "adspolicy-answer-10922738",
+        "fetch": "https://support.google.com/adspolicy/answer/10922738",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a4e666defdb01fd75af22c781b46d5e332b48d32"
+      },
+      {
+        "id": "adspolicy-answer-6299717",
+        "fetch": "https://support.google.com/adspolicy/answer/6299717",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "17658cd2a33216a8a3fb7ea580241156a75be70d"
+      },
+      {
+        "id": "google-ads-answer-9127662",
+        "fetch": "https://support.google.com/google-ads/answer/9127662",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "cf49b4c16fb92bb791bae45f7909e87e69e6e91d"
+      },
+      {
+        "id": "adspolicy-answer-6023676",
+        "fetch": "https://support.google.com/adspolicy/answer/6023676",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "img",
+          ".ytp-cued-thumbnail-overlay-image"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "d8379c5123bb41f3b453e54a70d5edcddacd6f4b"
+      }
+    ]
+  }
+}
