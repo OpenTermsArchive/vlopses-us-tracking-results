@@ -1,0 +1,73 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:21:35.508Z",
+    "serviceName": "Temu",
+    "sourceDocuments": [
+      {
+        "id": "privacy-and-cookie-policy",
+        "fetch": "https://www.temu.com/privacy-and-cookie-policy.html",
+        "select": [
+          "#policyContent"
+        ],
+        "remove": [
+          "#anchorWrap"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "816a89eb3c832e442e901b5164699734520f6f86"
+      },
+      {
+        "id": "privacy-policy-addendum-for-us-residents",
+        "fetch": "https://www.temu.com/privacy-policy-addendum-for-us-residents.html",
+        "select": [
+          "#policyContent"
+        ],
+        "remove": [
+          "#anchorWrap"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "b7c6938e8e097b66692dca3f332de489c96aab29"
+      },
+      {
+        "id": "common-policy",
+        "fetch": "https://www.temu.com/common-policy.html?protocol_type=12",
+        "select": [
+          "#policyContent"
+        ],
+        "remove": [
+          "#anchorWrap"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "50a1d28bf4bd71ce060b9888c2a05688a252db79"
+      },
+      {
+        "id": "cookie-and-similar-technologies-policy",
+        "fetch": "https://www.temu.com/cookie-and-similar-technologies-policy.html",
+        "select": [
+          "#policyContent"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "9e6da6d0bf2853aa7a173181354884372dddb2df"
+      },
+      {
+        "id": "bgp-privacy-policy-and-setting",
+        "fetch": "https://www.temu.com/bgp-privacy-policy-and-setting.html",
+        "select": [
+          ".mainContent"
+        ],
+        "remove": [
+          "footer",
+          "#mainHeader",
+          "nav"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "353de017a1ab26c2b15096b785a2b2d2f2f4fd8a"
+      }
+    ]
+  }
+}
