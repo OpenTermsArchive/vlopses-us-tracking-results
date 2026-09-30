@@ -1,0 +1,25 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:20:55.220Z",
+    "serviceName": "Stripchat",
+    "sourceDocuments": [
+      {
+        "id": "cookies-policy",
+        "fetch": "https://stripchat.com/cookies-policy",
+        "select": [
+          ".page-section"
+        ],
+        "remove": [
+          "button",
+          ".page-section-notes"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "f6983d9a6388f6e63f37bfd98f231170761fc125"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".page-section\"]\" has no match in the web page at 'https://stripchat.com/cookies-policy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
