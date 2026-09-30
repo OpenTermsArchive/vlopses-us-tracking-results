@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:18:16.305Z",
+    "serviceName": "Pinterest",
+    "sourceDocuments": [
+      {
+        "id": "en-cookies",
+        "fetch": "https://policy.pinterest.com/en/cookies",
+        "select": "main",
+        "remove": "aside",
+        "mimeType": "text/html",
+        "snapshotId": "45cd32bd8346f6f621fe043f3a7341802e3fcbae"
+      }
+    ]
+  }
+}
