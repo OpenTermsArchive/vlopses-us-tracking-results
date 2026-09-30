@@ -1,0 +1,36 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:33:48.856Z",
+    "serviceName": "XVideos",
+    "sourceDocuments": [
+      {
+        "id": "legal-tos",
+        "fetch": "https://info.xvideos.net/legal/tos",
+        "select": [
+          "#main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a4955f8d1c1ed473820b2fa964ea07b5fb06f4f7"
+      },
+      {
+        "id": "account-status",
+        "fetch": "https://info.xvideos.net/account-status",
+        "select": [
+          "#main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "c6a8d6f15bab945e3a0c97c78d498ef6354e1a71"
+      },
+      {
+        "id": "legal-tos",
+        "fetch": "https://info.xvideos.red/legal/tos",
+        "select": [
+          "#main"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "a4955f8d1c1ed473820b2fa964ea07b5fb06f4f7"
+      }
+    ]
+  }
+}
