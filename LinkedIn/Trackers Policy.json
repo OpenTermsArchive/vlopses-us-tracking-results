@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:17:46.754Z",
+    "serviceName": "LinkedIn",
+    "sourceDocuments": [
+      {
+        "id": "legal-cookie-policy",
+        "fetch": "https://www.linkedin.com/legal/cookie-policy",
+        "select": "main",
+        "remove": "div.banner__image-container",
+        "mimeType": "text/html",
+        "snapshotId": "786e732bbab0daa75568398ab5691a5f46fb46d8"
+      }
+    ]
+  }
+}
