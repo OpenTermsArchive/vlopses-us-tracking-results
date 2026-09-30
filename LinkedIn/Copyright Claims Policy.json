@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:17:58.322Z",
+    "serviceName": "LinkedIn",
+    "sourceDocuments": [
+      {
+        "id": "legal-copyright-policy",
+        "fetch": "https://www.linkedin.com/legal/copyright-policy",
+        "select": "main",
+        "remove": "div.banner__image-container",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "811a8fab2c7a4b62414556879d6eaec9321ac89c"
+      }
+    ]
+  }
+}
