@@ -1,0 +1,107 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:55:08.074Z",
+    "serviceName": "Facebook",
+    "sourceDocuments": [
+      {
+        "id": "legal-commercial_terms",
+        "fetch": "https://www.facebook.com/legal/commercial_terms?locale=en_US",
+        "select": [
+          {
+            "startBefore": "[role=\"main\"]",
+            "endBefore": "[role=\"separator\"]"
+          }
+        ],
+        "remove": [
+          "footer[role=\"contentinfo\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h",
+              "oh",
+              "_nc_gid"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "42c03c0fedae548a26192f1190c44b7a1fdd007f"
+      },
+      {
+        "id": "payments_terms",
+        "fetch": "https://www.facebook.com/payments_terms?locale=en_US",
+        "select": "[role=\"main\"]",
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h",
+              "oh",
+              "_nc_gid"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "b5455f0ee8b485f229f7d391021420d9d97775b9"
+      },
+      {
+        "id": "policies-other-policies-meta-pay-terms-and-conditions",
+        "fetch": "https://transparency.meta.com/policies/other-policies/meta-pay-terms-and-conditions",
+        "select": [
+          "#mdc-main-content"
+        ],
+        "remove": [
+          "nav"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h",
+              "oh",
+              "_nc_gid"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "29398d435f567395c49409426916fb3dcb0ad91e"
+      },
+      {
+        "id": "policies_center-commerce",
+        "fetch": "https://www.facebook.com/policies_center/commerce",
+        "select": [
+          "._li"
+        ],
+        "remove": [
+          "#u_0_1_fk",
+          "#u_0_3_Da",
+          "[class~=_9nrb_9nrd]",
+          "[href*='137151366_203760844736656_1882032595123025998_n.jpg']",
+          "[href*='137145103_308994903869841_4708570808613729754_n.jpg']",
+          "[href*='137256059_2800543870233431_455035967167740410_n.jpg']",
+          "[href*='136893606_849918935579882_213472362566516880_n.jpg']",
+          "img[src*='https://scontent']",
+          "img[src*='static.xx.fbcdn.net']",
+          "iframe[src*='https://www.facebook.com/cms/video/?id=850337606335586']",
+          "a",
+          ".img",
+          "span"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h",
+              "oh",
+              "_nc_gid"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "9ee591c58a4c3d4bbcb6e046b3ad110a218e238e"
+      }
+    ]
+  }
+}
