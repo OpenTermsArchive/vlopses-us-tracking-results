@@ -1,0 +1,55 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:26:07.878Z",
+    "serviceName": "Wikipedia",
+    "sourceDocuments": [
+      {
+        "id": "wiki-Policy_Universal_Code_of_Conduct-Enforcement_guidelines",
+        "fetch": "https://foundation.wikimedia.org/wiki/Policy:Universal_Code_of_Conduct/Enforcement_guidelines",
+        "select": [
+          "#bodyContent"
+        ],
+        "remove": [
+          ".mw-pt-languages-label",
+          ".mw-pt-languages-list",
+          "#mw-content-subtitle",
+          "#catlinks"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "4199cb2c591765308b53043e5189a65555438367"
+      },
+      {
+        "id": "wiki-WMF_Global_Ban_Policy",
+        "fetch": "https://meta.wikimedia.org/wiki/WMF_Global_Ban_Policy",
+        "select": [
+          "#bodyContent"
+        ],
+        "remove": [
+          ".mw-pt-languages-label",
+          ".mw-pt-languages-list",
+          "#mw-content-subtitle",
+          "#catlinks"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "7fdc829999776dd74d0a72c61d0fba0d1800aa9b"
+      },
+      {
+        "id": "wiki-Policy_Wikimedia_Foundation_Office_Actions_Policy",
+        "fetch": "https://foundation.wikimedia.org/wiki/Policy:Wikimedia_Foundation_Office_Actions_Policy",
+        "select": [
+          "#mw-content-text"
+        ],
+        "remove": [
+          "a[title]",
+          ".divlang",
+          "table.collapsible.collapsed",
+          "#catlinks",
+          ".nomobile"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "6216f5ab9ce7b9694ada723b1a96edb068e3aba2"
+      }
+    ]
+  }
+}
