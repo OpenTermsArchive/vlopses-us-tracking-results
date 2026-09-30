@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:23:17.098Z",
+    "serviceName": "TikTok",
+    "sourceDocuments": [
+      {
+        "id": "en-business-and-creator-creator-and-business-accounts-promoting-a-brand-product-or-service",
+        "fetch": "https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/promoting-a-brand-product-or-service",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          ".navigation-container-jNI5L7",
+          ".eva_wrapper-fdTaKJ",
+          "[class^=\"related_questions_wrapper\"]"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "ac8d2cceb78fdea1d4bacbc9ace6719a8b7d9216"
+      },
+      {
+        "id": "en-business-and-creator-creator-and-business-accounts-commercial-use-of-music-on-tiktok",
+        "fetch": "https://support.tiktok.com/en/business-and-creator/creator-and-business-accounts/commercial-use-of-music-on-tiktok",
+        "select": [
+          "main"
+        ],
+        "remove": [
+          ".navigation-container-jNI5L7",
+          ".eva_wrapper-fdTaKJ",
+          "[class^=\"related_questions_wrapper\"]"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "91057f2acfc6f1c4f565b96cf64fb340bf960b30"
+      }
+    ]
+  }
+}
