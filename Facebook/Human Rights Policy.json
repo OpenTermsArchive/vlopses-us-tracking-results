@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-09-30T01:34:37.325Z",
+    "date": "2026-09-30T13:10:13.418Z",
     "serviceName": "Facebook",
     "sourceDocuments": [
       {
@@ -10,11 +10,6 @@
         "mimeType": "application/pdf",
         "snapshotId": "905127c3879a33e82a2f04b5735fcaf3b3200396"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Network system error ETIMEDOUT occurred when trying to fetch 'https://about.fb.com/wp-content/uploads/2021/03/Facebooks-Corporate-Human-Rights-Policy.pdf'"
-      ]
-    }
+    ]
   }
 }
