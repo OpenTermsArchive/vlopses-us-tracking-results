@@ -1,0 +1,98 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:11:23.140Z",
+    "serviceName": "Google Play",
+    "sourceDocuments": [
+      {
+        "id": "intl-ALL_en-about-developer-distribution-agreement",
+        "fetch": "https://play.google.com/intl/ALL_en/about/developer-distribution-agreement.html",
+        "select": ".play-contained",
+        "remove": [
+          ".example",
+          ".scClientFeedbackInlineFeedbacklinkroot",
+          "iframe",
+          "img"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "f1c54c4ea87617a3cea1501a9793c7e2594c38c1"
+      },
+      {
+        "id": "googleplay-android-developer-answer-13323374",
+        "fetch": "https://support.google.com/googleplay/android-developer/answer/13323374?hl=en-US",
+        "select": ".article-container",
+        "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "f9ec8bad07c249fd0e334daab610eb75ad476ed0"
+      },
+      {
+        "id": "googleplay-android-developer-answer-9888380",
+        "fetch": "https://support.google.com/googleplay/android-developer/answer/9888380?hl=en-US",
+        "select": ".article-container",
+        "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "b1770ffc202443a8a68d82ce8e516ee268804fbc"
+      },
+      {
+        "id": "googleplay-android-developer-answer-11917020",
+        "fetch": "https://support.google.com/googleplay/android-developer/answer/11917020?hl=en-US",
+        "select": ".article-container",
+        "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "f08f70042c707896781935c1d1bf8011ce770675"
+      },
+      {
+        "id": "googleplay-android-developer-answer-12918983",
+        "fetch": "https://support.google.com/googleplay/android-developer/answer/12918983?hl=en-US",
+        "select": ".article-container",
+        "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "1572cd8424486c39875216de58cb41254f469f8e"
+      },
+      {
+        "id": "googleplay-android-developer-answer-10788890",
+        "fetch": "https://support.google.com/googleplay/android-developer/answer/10788890?hl=en-US",
+        "select": ".article-container",
+        "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "397feda8f8074b01a25c9e7ddd8f501b54ce7e29"
+      },
+      {
+        "id": "googleplay-android-developer-answer-9959470",
+        "fetch": "https://support.google.com/googleplay/android-developer/answer/9959470?hl=en-US",
+        "select": ".article-container",
+        "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "223eb0c5dab3d0063b8c8f34a80095382aca490e"
+      },
+      {
+        "id": "googleplay-android-developer-answer-16543315",
+        "fetch": "https://support.google.com/googleplay/android-developer/answer/16543315?hl=en-US",
+        "select": ".article-container",
+        "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "474f5577726afddafa985e7ebe3a8817a1ec1094"
+      },
+      {
+        "id": "googleplay-android-developer-answer-16329703",
+        "fetch": "https://support.google.com/googleplay/android-developer/answer/16329703?hl=en-US",
+        "select": ".article-container",
+        "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "0b1e010c27e36e57e3790f602435e61c9405f37e"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \".article-container\" has no match in the web page at 'https://support.google.com/googleplay/android-developer/answer/16543315?hl=en-US'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
