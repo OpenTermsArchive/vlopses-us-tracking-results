@@ -1,0 +1,18 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:33:35.831Z",
+    "serviceName": "X",
+    "sourceDocuments": [
+      {
+        "id": "en-rules-and-policies-x-trademark-policy",
+        "fetch": "https://help.x.com/en/rules-and-policies/x-trademark-policy",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "3fc4309e647bffebe691fd39050c34470ead2366"
+      }
+    ]
+  }
+}
