@@ -1,0 +1,787 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:10:22.327Z",
+    "serviceName": "Facebook",
+    "sourceDocuments": [
+      {
+        "id": "en-us-policies-community-standards",
+        "fetch": "https://transparency.meta.com/en-us/policies/community-standards/",
+        "select": [
+          "#mdc-main-content"
+        ],
+        "remove": [
+          "img",
+          "span",
+          "[aria-label=\"Video player\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "96d325f8f4e9da875358f471a620d36c8bbebec8"
+      },
+      {
+        "id": "policies-community-standards-violence-incitement",
+        "fetch": "https://transparency.meta.com/policies/community-standards/violence-incitement/",
+        "select": [
+          {
+            "startBefore": "main",
+            "endBefore": "#user-experiences"
+          }
+        ],
+        "remove": [
+          "nav",
+          "[href=\"#user-experiences\"]",
+          "[href=\"#data\"]",
+          "[href=\"#policy-details\"]",
+          "footer",
+          "div[role=\"tablist\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "66d4ec146ff83cd1736f0ca8df01b32b063a2327"
+      },
+      {
+        "id": "en-us-policies-community-standards-coordinating-harm-promoting-crime",
+        "fetch": "https://transparency.meta.com/en-us/policies/community-standards/coordinating-harm-promoting-crime/",
+        "select": [
+          {
+            "startBefore": "main",
+            "endBefore": "#user-experiences"
+          }
+        ],
+        "remove": [
+          "nav",
+          "[href=\"#user-experiences\"]",
+          "[href=\"#data\"]",
+          "[href=\"#policy-details\"]",
+          "footer",
+          "div[role=\"tablist\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "c89351a4bf5508a9ca5bfcdee1c3052e6b0b0801"
+      },
+      {
+        "id": "en-us-policies-community-standards-restricted-goods-services",
+        "fetch": "https://transparency.meta.com/en-us/policies/community-standards/restricted-goods-services/",
+        "select": [
+          {
+            "startBefore": "main",
+            "endBefore": "#user-experiences"
+          }
+        ],
+        "remove": [
+          "nav",
+          "[href=\"#user-experiences\"]",
+          "[href=\"#data\"]",
+          "[href=\"#policy-details\"]",
+          "footer",
+          "div[role=\"tablist\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "4ab443712fcad2b3e86df544e1413b3029451fb2"
+      },
+      {
+        "id": "policies-community-standards-fraud-and-scams",
+        "fetch": "https://transparency.meta.com/policies/community-standards/fraud-and-scams/",
+        "select": [
+          {
+            "startBefore": "main",
+            "endBefore": "#user-experiences"
+          }
+        ],
+        "remove": [
+          "nav",
+          "[href=\"#user-experiences\"]",
+          "[href=\"#data\"]",
+          "[href=\"#policy-details\"]",
+          "footer",
+          "div[role=\"tablist\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "aaf7c138f97cc84def06bc98cdeb76914212b054"
+      },
+      {
+        "id": "en-us-policies-community-standards-suicide-self-injury",
+        "fetch": "https://transparency.meta.com/en-us/policies/community-standards/suicide-self-injury/",
+        "select": [
+          {
+            "startBefore": "main",
+            "endBefore": "#user-experiences"
+          }
+        ],
+        "remove": [
+          "nav",
+          "[href=\"#user-experiences\"]",
+          "[href=\"#data\"]",
+          "[href=\"#policy-details\"]",
+          "footer",
+          "div[role=\"tablist\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "8ddff8f1e28b99a1b0130e13c57456aadc69c50a"
+      },
+      {
+        "id": "en-us-policies-community-standards-child-sexual-exploitation-abuse-nudity",
+        "fetch": "https://transparency.meta.com/en-us/policies/community-standards/child-sexual-exploitation-abuse-nudity/",
+        "select": [
+          {
+            "startBefore": "main",
+            "endBefore": "#user-experiences"
+          }
+        ],
+        "remove": [
+          "nav",
+          "[href=\"#user-experiences\"]",
+          "[href=\"#data\"]",
+          "[href=\"#policy-details\"]",
+          "footer",
+          "div[role=\"tablist\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "de1e957b029539873e6f69900b99e7a0ff75dcc2"
+      },
+      {
+        "id": "en-us-policies-community-standards-adult-sexual-exploitation",
+        "fetch": "https://transparency.meta.com/en-us/policies/community-standards/adult-sexual-exploitation/",
+        "select": [
+          {
+            "startBefore": "main",
+            "endBefore": "#user-experiences"
+          }
+        ],
+        "remove": [
+          "nav",
+          "[href=\"#user-experiences\"]",
+          "[href=\"#data\"]",
+          "[href=\"#policy-details\"]",
+          "footer",
+          "div[role=\"tablist\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "45f6fd5a4bb225ec442c798a10b7f209a9cb6a42"
+      },
+      {
+        "id": "en-us-policies-community-standards-bullying-harassment",
+        "fetch": "https://transparency.meta.com/en-us/policies/community-standards/bullying-harassment/",
+        "select": [
+          {
+            "startBefore": "main",
+            "endBefore": "#user-experiences"
+          }
+        ],
+        "remove": [
+          "nav",
+          "[href=\"#user-experiences\"]",
+          "[href=\"#data\"]",
+          "[href=\"#policy-details\"]",
+          "footer",
+          "div[role=\"tablist\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "2c2b8885834f45f85a875d4cb6b24e82dce9d71c"
+      },
+      {
+        "id": "en-us-policies-community-standards-human-exploitation",
+        "fetch": "https://transparency.meta.com/en-us/policies/community-standards/human-exploitation/",
+        "select": [
+          {
+            "startBefore": "main",
+            "endBefore": "#user-experiences"
+          }
+        ],
+        "remove": [
+          "nav",
+          "[href=\"#user-experiences\"]",
+          "[href=\"#data\"]",
+          "[href=\"#policy-details\"]",
+          "footer",
+          "div[role=\"tablist\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "a363afe822453a3ebc0327b70ecbaa88d3e5256e"
+      },
+      {
+        "id": "en-us-policies-community-standards-privacy-violations",
+        "fetch": "https://transparency.meta.com/en-us/policies/community-standards/privacy-violations/",
+        "select": [
+          {
+            "startBefore": "main",
+            "endBefore": "#user-experiences"
+          }
+        ],
+        "remove": [
+          "nav",
+          "[href=\"#user-experiences\"]",
+          "[href=\"#data\"]",
+          "[href=\"#policy-details\"]",
+          "footer",
+          "div[role=\"tablist\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "ce7d91d511a1a96f04d761d05df1b2f4435626f9"
+      },
+      {
+        "id": "en-us-policies-community-standards-hateful-conduct",
+        "fetch": "https://transparency.meta.com/en-us/policies/community-standards/hateful-conduct/",
+        "select": [
+          {
+            "startBefore": "main",
+            "endBefore": "#user-experiences"
+          }
+        ],
+        "remove": [
+          "nav",
+          "[href=\"#user-experiences\"]",
+          "[href=\"#data\"]",
+          "[href=\"#policy-details\"]",
+          "footer",
+          "div[role=\"tablist\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "7d8478ac857d5c7bfb651c1eae6ae7b4b49f30c2"
+      },
+      {
+        "id": "en-us-policies-community-standards-violent-graphic-content",
+        "fetch": "https://transparency.meta.com/en-us/policies/community-standards/violent-graphic-content/",
+        "select": [
+          {
+            "startBefore": "main",
+            "endBefore": "#user-experiences"
+          }
+        ],
+        "remove": [
+          "nav",
+          "[href=\"#user-experiences\"]",
+          "[href=\"#data\"]",
+          "[href=\"#policy-details\"]",
+          "footer",
+          "div[role=\"tablist\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "37176206a8eba2178a1853eb8593de7368e93fc0"
+      },
+      {
+        "id": "en-us-policies-community-standards-adult-nudity-sexual-activity",
+        "fetch": "https://transparency.meta.com/en-us/policies/community-standards/adult-nudity-sexual-activity/",
+        "select": [
+          {
+            "startBefore": "main",
+            "endBefore": "#user-experiences"
+          }
+        ],
+        "remove": [
+          "nav",
+          "[href=\"#user-experiences\"]",
+          "[href=\"#data\"]",
+          "[href=\"#policy-details\"]",
+          "footer",
+          "div[role=\"tablist\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "3ae9fb2cf63b3d51d23caa8c689d777b85134491"
+      },
+      {
+        "id": "en-us-policies-community-standards-sexual-solicitation",
+        "fetch": "https://transparency.meta.com/en-us/policies/community-standards/sexual-solicitation/",
+        "select": [
+          {
+            "startBefore": "main",
+            "endBefore": "#user-experiences"
+          }
+        ],
+        "remove": [
+          "nav",
+          "[href=\"#user-experiences\"]",
+          "[href=\"#data\"]",
+          "[href=\"#policy-details\"]",
+          "footer",
+          "div[role=\"tablist\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "44ad6566f53bc836bc45b1b583914172289443d8"
+      },
+      {
+        "id": "en-us-policies-community-standards-account-integrity",
+        "fetch": "https://transparency.meta.com/en-us/policies/community-standards/account-integrity",
+        "select": [
+          {
+            "startBefore": "main",
+            "endBefore": "#user-experiences"
+          }
+        ],
+        "remove": [
+          "nav",
+          "[href=\"#user-experiences\"]",
+          "[href=\"#data\"]",
+          "[href=\"#policy-details\"]",
+          "footer",
+          "div[role=\"tablist\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "1fc7562ae37be100af3e581ba5139f14ad9d05ce"
+      },
+      {
+        "id": "en-us-policies-community-standards-authentic-identity-representation",
+        "fetch": "https://transparency.meta.com/en-us/policies/community-standards/authentic-identity-representation",
+        "select": [
+          {
+            "startBefore": "main",
+            "endBefore": "#user-experiences"
+          }
+        ],
+        "remove": [
+          "nav",
+          "[href=\"#user-experiences\"]",
+          "[href=\"#data\"]",
+          "[href=\"#policy-details\"]",
+          "footer",
+          "div[role=\"tablist\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "c0ca2a0e536eb988f2d80f6a5c260f33e7594f10"
+      },
+      {
+        "id": "en-us-policies-community-standards-spam",
+        "fetch": "https://transparency.meta.com/en-us/policies/community-standards/spam/",
+        "select": [
+          {
+            "startBefore": "main",
+            "endBefore": "#user-experiences"
+          }
+        ],
+        "remove": [
+          "nav",
+          "[href=\"#user-experiences\"]",
+          "[href=\"#data\"]",
+          "[href=\"#policy-details\"]",
+          "footer",
+          "div[role=\"tablist\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "5ae814a8dec9d5585fd842a6b8e5a94dea52ca9e"
+      },
+      {
+        "id": "en-us-policies-community-standards-cybersecurity",
+        "fetch": "https://transparency.meta.com/en-us/policies/community-standards/cybersecurity/",
+        "select": [
+          {
+            "startBefore": "main",
+            "endBefore": "#user-experiences"
+          }
+        ],
+        "remove": [
+          "nav",
+          "[href=\"#user-experiences\"]",
+          "[href=\"#data\"]",
+          "[href=\"#policy-details\"]",
+          "footer",
+          "div[role=\"tablist\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "3da13f9c18718257f8ee83583c008e54a14c1d5d"
+      },
+      {
+        "id": "en-us-policies-community-standards-inauthentic-behavior",
+        "fetch": "https://transparency.meta.com/en-us/policies/community-standards/inauthentic-behavior/",
+        "select": [
+          {
+            "startBefore": "main",
+            "endBefore": "#user-experiences"
+          }
+        ],
+        "remove": [
+          "nav",
+          "[href=\"#user-experiences\"]",
+          "[href=\"#data\"]",
+          "[href=\"#policy-details\"]",
+          "footer",
+          "div[role=\"tablist\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "eec5d5481c59c96c45cdd7d481d23ee52cffa40e"
+      },
+      {
+        "id": "en-us-policies-community-standards-misinformation",
+        "fetch": "https://transparency.meta.com/en-us/policies/community-standards/misinformation/",
+        "select": [
+          {
+            "startBefore": "main",
+            "endBefore": "#user-experiences"
+          }
+        ],
+        "remove": [
+          "nav",
+          "[href=\"#user-experiences\"]",
+          "[href=\"#data\"]",
+          "[href=\"#policy-details\"]",
+          "footer",
+          "div[role=\"tablist\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "933ac1b1775e86af47ba3fff9523e1b82b661b16"
+      },
+      {
+        "id": "en-us-policies-community-standards-memorialization",
+        "fetch": "https://transparency.meta.com/en-us/policies/community-standards/memorialization/",
+        "select": [
+          {
+            "startBefore": "main",
+            "endBefore": "#user-experiences"
+          }
+        ],
+        "remove": [
+          "nav",
+          "[href=\"#user-experiences\"]",
+          "[href=\"#data\"]",
+          "[href=\"#policy-details\"]",
+          "footer",
+          "div[role=\"tablist\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "91af09cc4423799302847dc4c8f6925c0b922925"
+      },
+      {
+        "id": "en-us-policies-community-standards-intellectual-property",
+        "fetch": "https://transparency.meta.com/en-us/policies/community-standards/intellectual-property/",
+        "select": [
+          {
+            "startBefore": "main",
+            "endBefore": "#user-experiences"
+          }
+        ],
+        "remove": [
+          "nav",
+          "[href=\"#user-experiences\"]",
+          "[href=\"#data\"]",
+          "[href=\"#policy-details\"]",
+          "footer",
+          "div[role=\"tablist\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "c307e20c96806d6de20784996e08a9ab188d4a5c"
+      },
+      {
+        "id": "en-us-policies-community-standards-meta-intellectual-property",
+        "fetch": "https://transparency.meta.com/en-us/policies/community-standards/meta-intellectual-property/",
+        "select": [
+          {
+            "startBefore": "main",
+            "endBefore": "#user-experiences"
+          }
+        ],
+        "remove": [
+          "nav",
+          "[href=\"#user-experiences\"]",
+          "[href=\"#data\"]",
+          "[href=\"#policy-details\"]",
+          "footer",
+          "div[role=\"tablist\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "3bc841b0fcb04073c7cec926e00eb9f74aa9541f"
+      },
+      {
+        "id": "en-us-policies-community-standards-user-requests",
+        "fetch": "https://transparency.meta.com/en-us/policies/community-standards/user-requests/",
+        "select": [
+          {
+            "startBefore": "main",
+            "endBefore": "#user-experiences"
+          }
+        ],
+        "remove": [
+          "nav",
+          "[href=\"#user-experiences\"]",
+          "[href=\"#data\"]",
+          "[href=\"#policy-details\"]",
+          "footer",
+          "div[role=\"tablist\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "e513c06bf5e0b68f851386b64a6bd86e90edcb62"
+      },
+      {
+        "id": "en-us-policies-community-standards-additional-protection-minors",
+        "fetch": "https://transparency.meta.com/en-us/policies/community-standards/additional-protection-minors/",
+        "select": [
+          {
+            "startBefore": "main",
+            "endBefore": "#user-experiences"
+          }
+        ],
+        "remove": [
+          "nav",
+          "[href=\"#user-experiences\"]",
+          "[href=\"#data\"]",
+          "[href=\"#policy-details\"]",
+          "footer",
+          "div[role=\"tablist\"]"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "60b04aea0691e8ea3c1edb1c9ba5c647346bab82"
+      },
+      {
+        "id": "help-1257205004624246",
+        "fetch": "https://www.facebook.com/help/1257205004624246/",
+        "select": [
+          "#help-center-faq-page-container"
+        ],
+        "remove": [
+          "#Related articles",
+          "fieldset"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "8e2379d9503781a8774457c4f88d24c6f9c2b4c9"
+      },
+      {
+        "id": "policies_center-pages_groups_events",
+        "fetch": "https://www.facebook.com/policies_center/pages_groups_events",
+        "select": [
+          "._li"
+        ],
+        "remove": [
+          "#u_0_1_fk",
+          "#u_0_3_Da",
+          "[class~=_9nrb_9nrd]",
+          "[href*='137151366_203760844736656_1882032595123025998_n.jpg']",
+          "[href*='137145103_308994903869841_4708570808613729754_n.jpg']",
+          "[href*='137256059_2800543870233431_455035967167740410_n.jpg']",
+          "[href*='136893606_849918935579882_213472362566516880_n.jpg']",
+          "img[src*='https://scontent']",
+          "img[src*='static.xx.fbcdn.net']",
+          "iframe[src*='https://www.facebook.com/cms/video/?id=850337606335586']",
+          "a",
+          ".img",
+          "span"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "367dacd348528e4ba3b3ce1d726effece72ef19e"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The \"end\" selector has no match in document in: {\"startBefore\":\"main\",\"endBefore\":\"#user-experiences\"}"
+    ]
+  }
+}
