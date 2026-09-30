@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:41:14.562Z",
+    "serviceName": "App Store",
+    "sourceDocuments": [
+      {
+        "id": "legal-macapps-stdeula",
+        "fetch": "https://www.apple.com/legal/macapps/stdeula/",
+        "select": [
+          "h1",
+          ".section-content"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "42d9a864a2eb5a5bbe8976df0162c235536d8f54"
+      }
+    ]
+  }
+}
