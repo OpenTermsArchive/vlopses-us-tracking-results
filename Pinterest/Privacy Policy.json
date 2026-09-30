@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:18:12.728Z",
+    "serviceName": "Pinterest",
+    "sourceDocuments": [
+      {
+        "id": "en-privacy-policy",
+        "fetch": "https://policy.pinterest.com/en/privacy-policy",
+        "select": "main",
+        "remove": "aside",
+        "mimeType": "text/html",
+        "snapshotId": "b09e7fa706a18d9ff8b50e47488224f10bc284af"
+      },
+      {
+        "id": "en-information-about-call-recordings",
+        "fetch": "https://policy.pinterest.com/en/information-about-call-recordings",
+        "select": "main",
+        "remove": "aside",
+        "mimeType": "text/html",
+        "snapshotId": "c93f2bd062fe909161302aed81a24050f6c07416"
+      },
+      {
+        "id": "en-non-user-notice",
+        "fetch": "https://policy.pinterest.com/en/non-user-notice",
+        "select": "main",
+        "remove": "aside",
+        "mimeType": "text/html",
+        "snapshotId": "b69be6d9830aa3c80287f99389a302d7f9045270"
+      },
+      {
+        "id": "en-notice-at-collection",
+        "fetch": "https://policy.pinterest.com/en/notice-at-collection",
+        "select": "main",
+        "remove": "aside",
+        "mimeType": "text/html",
+        "snapshotId": "ee43d490328ad928e7229c173e478ea236a7d39f"
+      }
+    ]
+  }
+}
