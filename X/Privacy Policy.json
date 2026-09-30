@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:26:32.363Z",
+    "serviceName": "X",
+    "sourceDocuments": [
+      {
+        "id": "en-privacy",
+        "fetch": "https://x.com/en/privacy",
+        "select": "main",
+        "remove": [
+          ".ct17__wrapper",
+          ".ct17__background"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "c0369402611e03f9b05fdbc5c7c7cd81af28bd0c"
+      }
+    ]
+  }
+}
