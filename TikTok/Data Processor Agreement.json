@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:23:00.531Z",
+    "serviceName": "TikTok",
+    "sourceDocuments": [
+      {
+        "id": "i18n-official-policy-jurisdiction-specific-terms",
+        "fetch": "https://ads.tiktok.com/i18n/official/policy/jurisdiction-specific-terms",
+        "select": [
+          "#articleContainer"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "625247da8acb4907e92307e59d37f26ec450a624"
+      },
+      {
+        "id": "legal-page-global-tiktok-data-sharing-agreement-en",
+        "fetch": "https://www.tiktok.com/legal/page/global/tiktok-data-sharing-agreement/en",
+        "select": [
+          "#policy-card"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "0a997a1682b5739b72806259e7394b7b1599835f"
+      }
+    ]
+  }
+}
