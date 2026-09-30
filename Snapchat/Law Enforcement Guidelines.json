@@ -1,0 +1,28 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:20:40.632Z",
+    "serviceName": "Snapchat",
+    "sourceDocuments": [
+      {
+        "id": "safety-safety-enforcement",
+        "fetch": "https://values.snap.com/safety/safety-enforcement",
+        "select": "main",
+        "remove": [
+          "header",
+          ".sdsm-side-navigation",
+          "footer",
+          "img"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "45087ea37f517e8606f8550741ec19f8cabbc872"
+      },
+      {
+        "id": "dwtpq5hdcqjg-4jI8Swj0BHjUD0VzbCcxkk-75d69c0de7ce747cac82bfe39378106c-Snapchat_Law_Enforcement_Guide",
+        "fetch": "https://assets.ctfassets.net/dwtpq5hdcqjg/4jI8Swj0BHjUD0VzbCcxkk/75d69c0de7ce747cac82bfe39378106c/Snapchat_Law_Enforcement_Guide.pdf",
+        "mimeType": "application/pdf",
+        "snapshotId": "25fbe604c7c9c25a4a01bf72dcb166370afdfdbe"
+      }
+    ]
+  }
+}
