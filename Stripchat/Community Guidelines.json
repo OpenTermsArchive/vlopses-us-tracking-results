@@ -1,0 +1,56 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:21:00.837Z",
+    "serviceName": "Stripchat",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-22536961950097-Rules-Penalties",
+        "fetch": "https://support.stripchat.com/hc/en-us/articles/22536961950097-Rules-Penalties",
+        "select": [
+          ".article-body"
+        ],
+        "remove": [
+          "button",
+          ".page-section-notes"
+        ],
+        "executeClientScripts": true,
+        "mimeType": null,
+        "snapshotId": null
+      },
+      {
+        "id": "hc-en-us-articles-4410728008977-Community-Guidelines",
+        "fetch": "https://support.stripchat.com/hc/en-us/articles/4410728008977-Community-Guidelines",
+        "select": [
+          ".article-body"
+        ],
+        "remove": [
+          "button",
+          ".page-section-notes"
+        ],
+        "executeClientScripts": true,
+        "mimeType": null,
+        "snapshotId": null
+      },
+      {
+        "id": "hc-en-us-articles-7715324972433-Rules-you-must-follow-as-a-viewer",
+        "fetch": "https://support.stripchat.com/hc/en-us/articles/7715324972433-Rules-you-must-follow-as-a-viewer",
+        "select": [
+          ".article-body"
+        ],
+        "remove": [
+          "button",
+          ".page-section-notes"
+        ],
+        "executeClientScripts": true,
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Response is empty when trying to fetch 'https://support.stripchat.com/hc/en-us/articles/22536961950097-Rules-Penalties'",
+      "[fetch] Fetch failed: Response is empty when trying to fetch 'https://support.stripchat.com/hc/en-us/articles/4410728008977-Community-Guidelines'",
+      "[fetch] Fetch failed: Response is empty when trying to fetch 'https://support.stripchat.com/hc/en-us/articles/7715324972433-Rules-you-must-follow-as-a-viewer'"
+    ]
+  }
+}
