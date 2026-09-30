@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:19:43.396Z",
+    "serviceName": "Shein",
+    "sourceDocuments": [
+      {
+        "id": "Return-Policy-a-281",
+        "fetch": "https://us.shein.com/Return-Policy-a-281.html",
+        "select": "#j-new-article-bff",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "758f70808abb965f73a20ddc69d425f705d19a3f"
+      }
+    ]
+  }
+}
