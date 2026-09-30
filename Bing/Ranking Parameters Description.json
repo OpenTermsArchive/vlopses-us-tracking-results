@@ -1,0 +1,27 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T00:46:52.959Z",
+    "serviceName": "Bing",
+    "sourceDocuments": [
+      {
+        "id": "en-us-topic-how-bing-delivers-search-results-d18fc815-ac37-4723-bc67-9229ce3eb6a3",
+        "fetch": "https://support.microsoft.com/en-us/topic/how-bing-delivers-search-results-d18fc815-ac37-4723-bc67-9229ce3eb6a3",
+        "select": [
+          "#supArticleContent"
+        ],
+        "remove": [
+          "section[aria-labelledby=\"ID0EDD\"]",
+          ".ocArticleFooterShareLinksWrapper",
+          ".ocArticleFooterSection"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "5579bfbe26ec0e6db51e36703ca6d1cc36335534"
+      }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\"#supArticleContent\"]\" has no match in the web page at 'https://support.microsoft.com/en-us/topic/how-bing-delivers-search-results-d18fc815-ac37-4723-bc67-9229ce3eb6a3'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
+    ]
+  }
+}
