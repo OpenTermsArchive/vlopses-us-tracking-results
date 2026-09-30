@@ -1,0 +1,41 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:34:33.478Z",
+    "serviceName": "YouTube",
+    "sourceDocuments": [
+      {
+        "id": "youtube-answer-9996224",
+        "fetch": "https://support.google.com/youtube/answer/9996224",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".embedded-video-large",
+          ".ytp-cued-thumbnail-overlay",
+          "sc-client-feedback-inline-feedback-link",
+          ".inline-feedback__trackr",
+          "img"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "7722239eeafd7e8d29c71c25a1fe55eb55cb4cfd"
+      },
+      {
+        "id": "youtube-answer-6156383",
+        "fetch": "https://support.google.com/youtube/answer/6156383",
+        "select": [
+          ".article-container"
+        ],
+        "remove": [
+          ".embedded-video-large",
+          ".ytp-cued-thumbnail-overlay",
+          "sc-client-feedback-inline-feedback-link",
+          ".inline-feedback__trackr",
+          "img"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "cdd3d2bdfd2d2908daad1802c5f1d54bcaa379a6"
+      }
+    ]
+  }
+}
