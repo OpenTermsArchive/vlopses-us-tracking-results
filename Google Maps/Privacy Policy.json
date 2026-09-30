@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:10:29.190Z",
+    "serviceName": "Google Maps",
+    "sourceDocuments": [
+      {
+        "id": "privacy",
+        "fetch": "https://policies.google.com/privacy?hl=en",
+        "select": "#main-content",
+        "remove": [
+          "img",
+          ".ytp-cued-thumbnail-overlay"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "b56aaabd62129523e8e4c0a84d946137945c6cc0"
+      }
+    ]
+  }
+}
