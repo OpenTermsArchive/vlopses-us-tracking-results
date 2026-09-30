@@ -1,0 +1,39 @@
+{
+  "status": "failed",
+  "event": {
+    "date": "2026-09-30T01:21:03.285Z",
+    "serviceName": "Stripchat",
+    "sourceDocuments": [
+      {
+        "id": "hc-en-us-articles-4410728017553-Rules-for-Models",
+        "fetch": "https://support.stripchat.com/hc/en-us/articles/4410728017553-Rules-for-Models",
+        "select": [
+          ".article-body"
+        ],
+        "remove": [
+          "button",
+          ".page-section-notes"
+        ],
+        "mimeType": null,
+        "snapshotId": null
+      },
+      {
+        "id": "hc-en-us-articles-19410761348113-Studio-Rules",
+        "fetch": "https://support.stripchat.com/hc/en-us/articles/19410761348113-Studio-Rules",
+        "select": [
+          ".article-body"
+        ],
+        "remove": [
+          "button",
+          ".page-section-notes"
+        ],
+        "mimeType": null,
+        "snapshotId": null
+      }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Response is empty when trying to fetch 'https://support.stripchat.com/hc/en-us/articles/4410728017553-Rules-for-Models'",
+      "[fetch] Fetch failed: Response is empty when trying to fetch 'https://support.stripchat.com/hc/en-us/articles/19410761348113-Studio-Rules'"
+    ]
+  }
+}
