@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:26:45.141Z",
+    "serviceName": "X",
+    "sourceDocuments": [
+      {
+        "id": "en-rules-and-policies-x-law-enforcement-support",
+        "fetch": "https://help.x.com/en/rules-and-policies/x-law-enforcement-support",
+        "select": "main",
+        "remove": "[aria-label=\"Breadcrumbs\"]",
+        "mimeType": "text/html",
+        "snapshotId": "36ee2959843f4853563cc7c9b77742da96884a5c"
+      }
+    ]
+  }
+}
