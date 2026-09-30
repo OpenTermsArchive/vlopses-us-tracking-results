@@ -1,0 +1,61 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:10:34.084Z",
+    "serviceName": "Google Maps",
+    "sourceDocuments": [
+      {
+        "id": "intl-en_us-help-terms_maps",
+        "fetch": "https://www.google.com/intl/en_us/help/terms_maps.html",
+        "select": [
+          ".main-article"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "12e0b03561374af72b33878f415dc8a2a141f9a4"
+      },
+      {
+        "id": "maps-platform-terms-maps-service-terms",
+        "fetch": "https://cloud.google.com/maps-platform/terms/maps-service-terms",
+        "select": [
+          "#google-maps-platform-service-specific-terms",
+          "#module-5"
+        ],
+        "remove": [
+          "nav"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "42130f10709eea3708d878ed91ea1cb25a69ccda"
+      },
+      {
+        "id": "maps-platform-terms-maps-services",
+        "fetch": "https://cloud.google.com/maps-platform/terms/maps-services",
+        "select": [
+          "#module-3",
+          "#module-5"
+        ],
+        "remove": [
+          "nav"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "e712b41e93f018b540426edd7ade8c3c0bac8546"
+      },
+      {
+        "id": "maps-documentation-mobility-services-terms",
+        "fetch": "https://developers.google.com/maps/documentation/mobility/services/terms",
+        "select": [
+          ".devsite-article"
+        ],
+        "remove": [
+          ".devsite-breadcrumb-list",
+          ".devsite-thumb-rating",
+          "#devsite-collections-dropdown",
+          ".devsite-llm-tools-container",
+          ".devsite-thumb-label",
+          ".devsite-thumbs"
+        ],
+        "mimeType": "text/html",
+        "snapshotId": "508ab7a24c4ce5fc082a46a877518b6a5eebc853"
+      }
+    ]
+  }
+}
