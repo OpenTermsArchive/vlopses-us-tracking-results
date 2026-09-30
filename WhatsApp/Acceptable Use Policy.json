@@ -1,0 +1,32 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:25:04.872Z",
+    "serviceName": "WhatsApp",
+    "sourceDocuments": [
+      {
+        "id": "legal-messaging-guidelines",
+        "fetch": "https://www.whatsapp.com/legal/messaging-guidelines",
+        "select": "#content-wrapper",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "4be589d66a3ee87828c0454adb1f2bc668206ace"
+      },
+      {
+        "id": "policy",
+        "fetch": "https://whatsappbusiness.com/policy/",
+        "select": "main",
+        "remove": [
+          "svg",
+          "img",
+          "header",
+          "footer",
+          ".wp-block-wab-table-of-contents__toggle"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "7286a45ffec88b6b0a9ba9f995904f647b4b6773"
+      }
+    ]
+  }
+}
