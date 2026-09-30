@@ -1,0 +1,17 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:33:23.956Z",
+    "serviceName": "X",
+    "sourceDocuments": [
+      {
+        "id": "en-rules-and-policies-content-monetization-standards",
+        "fetch": "https://help.x.com/en/rules-and-policies/content-monetization-standards",
+        "select": "main",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "4280e60f76539538736665febbe24c7d1454715b"
+      }
+    ]
+  }
+}
