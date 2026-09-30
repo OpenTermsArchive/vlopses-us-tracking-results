@@ -1,0 +1,50 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T01:19:30.524Z",
+    "serviceName": "Shein",
+    "sourceDocuments": [
+      {
+        "id": "shein-customized-product-terms-and-conditions-a-1898",
+        "fetch": "https://us.shein.com/shein-customized-product-terms-and-conditions-a-1898.html",
+        "select": "#j-new-article-bff",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "0b9adac8257b0d9e7be5bad3186c3bd5485039ac"
+      },
+      {
+        "id": "shein-saver-terms-and-conditions-a-1818",
+        "fetch": "https://us.shein.com/shein-saver-terms-and-conditions-a-1818.html",
+        "select": "#j-new-article-bff",
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "3d8bb3b41637dc6253d87b1dcc91bf791cd6d6ce"
+      },
+      {
+        "id": "Terms-and-Conditions-a-399",
+        "fetch": "https://us.shein.com/Terms-and-Conditions-a-399.html?lang=us",
+        "select": [
+          "#j-new-article-bff"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "f425da1467050dc571a4955998b5d442ba331803"
+      },
+      {
+        "id": "terms-conditions",
+        "fetch": "https://www.sheingroup.com/terms-conditions/",
+        "select": [
+          "h2",
+          "article"
+        ],
+        "remove": [
+          "header",
+          "footer"
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "736477deee7a8d27d051f06384aed675e0d16166"
+      }
+    ]
+  }
+}
