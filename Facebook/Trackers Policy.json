@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "event": {
+    "date": "2026-09-30T00:52:36.980Z",
+    "serviceName": "Facebook",
+    "sourceDocuments": [
+      {
+        "id": "privacy-policies-cookies",
+        "fetch": "https://mbasic.facebook.com/privacy/policies/cookies?locale=en_US",
+        "select": [
+          "#root"
+        ],
+        "remove": [
+          "img"
+        ],
+        "filter": [
+          {
+            "removeQueryParams": [
+              "h"
+            ]
+          }
+        ],
+        "executeClientScripts": true,
+        "mimeType": "text/html",
+        "snapshotId": "3f10a7ffc2a3c64fba6e822bd06fa2cfe57dc1f9"
+      }
+    ]
+  }
+}
