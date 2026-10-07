@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-06T13:19:53.567Z",
+    "date": "2026-10-07T01:20:21.728Z",
     "serviceName": "Stripchat",
     "sourceDocuments": [
       {
@@ -16,11 +16,8 @@
           ".page-section-notes"
         ],
         "mimeType": "text/html",
-        "snapshotId": "fb171ce349b08b4d11d06ba3f054c150abd648f2"
+        "snapshotId": "af2f8b0672d2dff10603bd5871c9199e114cf299"
       }
-    ],
-    "reasons": [
-      "[extraction] Extract failed: The provided selector \"[\".term-of-use-page\"]\" has no match in the web page at 'https://stripchat.com/terms'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
