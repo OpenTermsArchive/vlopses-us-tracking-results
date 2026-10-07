@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-09-30T00:41:00.767Z",
+    "date": "2026-10-07T13:45:40.492Z",
     "serviceName": "AliExpress",
     "sourceDocuments": [
       {
@@ -16,8 +16,13 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "cc0004833841604ebfe6f98f0925dcfc1e38e670"
+        "snapshotId": "d5cc2cc5b8c1042875f867b08cde8fd068f9b430"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://rule.aliexpress.com/rule-channels/37978936/127561563'"
+      ]
+    }
   }
 }
