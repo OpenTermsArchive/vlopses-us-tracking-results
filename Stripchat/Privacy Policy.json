@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-10-05T01:19:35.917Z",
+    "date": "2026-10-09T13:20:33.612Z",
     "serviceName": "Stripchat",
     "sourceDocuments": [
       {
@@ -15,8 +15,11 @@
           ".page-section-notes"
         ],
         "mimeType": "text/html",
-        "snapshotId": "a32ec8086cc21cb21114f3c018aa80582ec66f00"
+        "snapshotId": "da9b1a653f9fc693a47b60e3e578c587a1fe15e6"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".page-section\"]\" has no match in the web page at 'https://stripchat.com/privacy'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
