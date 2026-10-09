@@ -4,9 +4,9 @@
   "schedule": "30 */12 * * *",
   "lastRun": {
     "startDate": "2026-10-09T12:30:03.852Z",
-    "endDate": null,
+    "endDate": "2026-10-09T13:34:03.113Z",
     "engineVersion": "16.3.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "53d23c6d04d98bdcc5d01fc72d4175d58fee8267",
@@ -14,15 +14,28 @@
     "terms": 199
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 179,
+    "failed": 14
   },
   "coverage": {
-    "processed": 0,
+    "processed": 193,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
+    "newFailures": [
+      {
+        "serviceId": "Stripchat",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Stripchat",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Stripchat",
+        "termsType": "Acceptable Use Policy"
+      }
+    ],
     "recoveries": [],
     "reasonChanges": []
   },
