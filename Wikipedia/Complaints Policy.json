@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-09-30T01:26:07.878Z",
+    "date": "2026-10-10T01:34:27.263Z",
     "serviceName": "Wikipedia",
     "sourceDocuments": [
       {
@@ -17,7 +17,7 @@
           "#catlinks"
         ],
         "mimeType": "text/html",
-        "snapshotId": "4199cb2c591765308b53043e5189a65555438367"
+        "snapshotId": "984e7dd1de7f8950b0242e758021f22f2f3b1e77"
       },
       {
         "id": "wiki-WMF_Global_Ban_Policy",
@@ -32,7 +32,7 @@
           "#catlinks"
         ],
         "mimeType": "text/html",
-        "snapshotId": "7fdc829999776dd74d0a72c61d0fba0d1800aa9b"
+        "snapshotId": "d9beb63787fa671072cf711d0c7397799e5f21ca"
       },
       {
         "id": "wiki-Policy_Wikimedia_Foundation_Office_Actions_Policy",
@@ -48,8 +48,13 @@
           ".nomobile"
         ],
         "mimeType": "text/html",
-        "snapshotId": "6216f5ab9ce7b9694ada723b1a96edb068e3aba2"
+        "snapshotId": "bd9062405bc89ba1540199c4984d87147600f584"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Network system error ETIMEDOUT occurred when trying to fetch 'https://meta.wikimedia.org/wiki/WMF_Global_Ban_Policy'"
+      ]
+    }
   }
 }
