@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-14T01:34:01.407Z",
+    "date": "2026-10-14T13:20:33.166Z",
     "serviceName": "Telegram",
     "sourceDocuments": [
       {
@@ -9,13 +9,8 @@
         "fetch": "https://telegram.org/privacy",
         "select": "#dev_page_content_wrap",
         "mimeType": "text/html",
-        "snapshotId": "4d3daf4e928e15332e3483fbb51ff6d76b829b9d"
+        "snapshotId": "23c4a66cf08fa35ca270f0a2d51cfe4666892d52"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Network system error ETIMEDOUT occurred when trying to fetch 'https://telegram.org/privacy'"
-      ]
-    }
+    ]
   }
 }
