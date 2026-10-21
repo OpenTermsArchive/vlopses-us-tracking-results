@@ -4,9 +4,9 @@
   "schedule": "30 */12 * * *",
   "lastRun": {
     "startDate": "2026-10-21T00:30:03.786Z",
-    "endDate": null,
+    "endDate": "2026-10-21T01:37:22.285Z",
     "engineVersion": "16.3.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "53d23c6d04d98bdcc5d01fc72d4175d58fee8267",
@@ -14,15 +14,44 @@
     "terms": 199
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 175,
+    "failed": 18
   },
   "coverage": {
-    "processed": 0,
+    "processed": 193,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
+    "newFailures": [
+      {
+        "serviceId": "Instagram",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Instagram",
+        "termsType": "Law Enforcement Guidelines"
+      },
+      {
+        "serviceId": "Instagram",
+        "termsType": "Content Monetisation Policy"
+      },
+      {
+        "serviceId": "Stripchat",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Stripchat",
+        "termsType": "Copyright Claims Policy"
+      },
+      {
+        "serviceId": "Stripchat",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Stripchat",
+        "termsType": "Trackers Policy"
+      }
+    ],
     "recoveries": [],
     "reasonChanges": []
   },
