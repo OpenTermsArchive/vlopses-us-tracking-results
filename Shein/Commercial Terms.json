@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-21T13:38:40.431Z",
+    "date": "2026-10-24T01:19:48.564Z",
     "serviceName": "Shein",
     "sourceDocuments": [
       {
@@ -28,11 +28,6 @@
         "mimeType": "application/pdf",
         "snapshotId": "4f3adfa825d4d062d6407e3582ff116427b266f3"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://cdn.sanity.io/files/44sbcf22/production/d7451fb1ffda7d07f523f295c644695862cf429a.pdf'"
-      ]
-    }
+    ]
   }
 }
