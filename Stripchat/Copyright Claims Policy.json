@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-24T13:20:07.398Z",
+    "date": "2026-10-25T01:20:22.067Z",
     "serviceName": "Stripchat",
     "sourceDocuments": [
       {
@@ -15,11 +15,8 @@
           ".page-section-notes"
         ],
         "mimeType": "text/html",
-        "snapshotId": "c5fee39180953ca8f5f321316e6ca9e005605434"
+        "snapshotId": "8b7e76cebe3abcc393fa872dd391e32513719474"
       }
-    ],
-    "reasons": [
-      "[extraction] Extract failed: The provided selector \"[\".page-section\"]\" has no match in the web page at 'https://stripchat.com/dmca'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
