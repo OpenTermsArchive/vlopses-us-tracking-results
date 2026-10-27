@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-27T01:36:32.683Z",
+    "date": "2026-10-27T12:30:35.980Z",
     "serviceName": "AliExpress",
     "sourceDocuments": [
       {
@@ -28,13 +28,8 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "1e61ae44af1b0536a989a7fc284767bc7bf7e27f"
+        "snapshotId": "8866f98d7930b027e7d26d9433f3709533a0382c"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://terms.alicdn.com/legal-agreement/terms/suit_bu1_b2b/suit_bu1_b2b201906251608_13446.html'"
-      ]
-    }
+    ]
   }
 }
