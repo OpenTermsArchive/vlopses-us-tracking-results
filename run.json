@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-3ab2d72b-33b5-41a8-a28d-7f693b566913",
+  "runId": "ota-run-6bc3ec93-9a2a-4f29-8419-b4779f3db43f",
   "collectionId": "vlopses-us",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-10-27T00:30:03.959Z",
-    "endDate": "2026-10-27T01:36:32.770Z",
+    "startDate": "2026-10-27T12:30:04.083Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "53d23c6d04d98bdcc5d01fc72d4175d58fee8267",
@@ -14,30 +14,17 @@
     "terms": 199
   },
   "tracked": {
-    "ok": 182,
-    "failed": 11
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 193,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
     "newFailures": [],
-    "recoveries": [
-      {
-        "serviceId": "Stripchat",
-        "termsType": "Trackers Policy"
-      },
-      {
-        "serviceId": "Stripchat",
-        "termsType": "Copyright Claims Policy"
-      },
-      {
-        "serviceId": "TikTok",
-        "termsType": "Privacy Policy"
-      }
-    ],
+    "recoveries": [],
     "reasonChanges": []
   },
-  "transientErrors": 1
+  "transientErrors": 0
 }
