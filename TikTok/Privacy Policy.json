@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-10-26T13:25:04.008Z",
+    "date": "2026-10-27T01:24:27.035Z",
     "serviceName": "TikTok",
     "sourceDocuments": [
       {
@@ -9,25 +9,22 @@
         "fetch": "https://www.tiktok.com/legal/page/us/privacy-policy/en",
         "select": "#policy-card",
         "mimeType": "text/html",
-        "snapshotId": "4012e66d54dccc77095c9fac497c72d77f93c601"
+        "snapshotId": "a40c2990d403cdb2fbca09a1a8cb2eff17dbec6e"
       },
       {
         "id": "legal-page-global-privacy-policy-for-younger-users-en",
         "fetch": "https://www.tiktok.com/legal/page/global/privacy-policy-for-younger-users/en",
         "select": "#policy-card",
         "mimeType": "text/html",
-        "snapshotId": "e780eda47b6b0002e5b35541293520106e54ca4e"
+        "snapshotId": "02fc1333c17144c052f97cafe0f3d0e8424e4119"
       },
       {
         "id": "legal-page-global-tiktok-ad-network-privacy-policy-en",
         "fetch": "https://www.tiktok.com/legal/page/global/tiktok-ad-network-privacy-policy/en",
         "select": "#policy-card",
-        "mimeType": null,
-        "snapshotId": null
+        "mimeType": "text/html",
+        "snapshotId": "be2695eb6776f3804971c71e751c9e164c3bda53"
       }
-    ],
-    "reasons": [
-      "[fetch] Fetch failed: Received an empty content when fetching 'https://www.tiktok.com/legal/page/global/tiktok-ad-network-privacy-policy/en'"
     ]
   }
 }
