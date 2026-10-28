@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-10-25T01:20:27.938Z",
+    "date": "2026-10-28T13:21:42.264Z",
     "serviceName": "Stripchat",
     "sourceDocuments": [
       {
@@ -15,8 +15,11 @@
           ".page-section-notes"
         ],
         "mimeType": "text/html",
-        "snapshotId": "3d0138c70b46171b72e9d4cd1a423c491ff826c4"
+        "snapshotId": "fc1d1eebde6d7768f827f529c8fed126b939cc09"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"[\".page-section\"]\" has no match in the web page at 'https://stripchat.com/parental-control'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
