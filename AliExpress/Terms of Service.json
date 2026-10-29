@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-09-30T00:30:10.159Z",
+    "date": "2026-10-29T13:37:30.597Z",
     "serviceName": "AliExpress",
     "sourceDocuments": [
       {
@@ -12,7 +12,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "60934408f93d959e3d5452f567dca02d99096af2"
+        "snapshotId": "4752c5c94a2a26f2cc3afa719547b469e2c0bd58"
       },
       {
         "id": "legal-agreement-terms-suit_bu1_aliexpress-suit_bu1_aliexpress202204182115_66077",
@@ -22,7 +22,7 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "83e61f9184cbb6733ebc72fa03d7f4e3d2955c99"
+        "snapshotId": "f6fe8feaab081379d8da8d25b33ff63aacc816d4"
       },
       {
         "id": "legal-agreement-terms-c_platform_service_agreement-20230925183441576-20230925183441576",
@@ -32,8 +32,13 @@
         ],
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "2ee9c3bffdaa503f478fbd58e8a338cd2d724db5"
+        "snapshotId": "e38d2b12c296523b7541e1c915af07b8d195337c"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://terms.alicdn.com/legal-agreement/terms/suit_bu1_aliexpress/suit_bu1_aliexpress202204182115_66077.html'"
+      ]
+    }
   }
 }
