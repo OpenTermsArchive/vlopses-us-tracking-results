@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-576609d2-dd5f-48ae-b9f6-3aca6d7946a4",
+  "runId": "ota-run-e60eb91a-1525-4884-b620-48735403ad76",
   "collectionId": "vlopses-us",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-10-28T12:30:03.942Z",
-    "endDate": "2026-10-28T13:37:38.893Z",
+    "startDate": "2026-10-29T00:30:03.869Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "53d23c6d04d98bdcc5d01fc72d4175d58fee8267",
@@ -14,26 +14,16 @@
     "terms": 199
   },
   "tracked": {
-    "ok": 181,
-    "failed": 12
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 193,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Stripchat",
-        "termsType": "Acceptable Use Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Stripchat",
-        "termsType": "Copyright Claims Policy"
-      }
-    ],
+    "newFailures": [],
+    "recoveries": [],
     "reasonChanges": []
   },
   "transientErrors": 0
