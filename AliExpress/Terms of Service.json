@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-10-29T13:37:30.597Z",
+    "date": "2026-10-30T00:30:08.951Z",
     "serviceName": "AliExpress",
     "sourceDocuments": [
       {
@@ -34,11 +34,6 @@
         "mimeType": "text/html",
         "snapshotId": "e38d2b12c296523b7541e1c915af07b8d195337c"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://terms.alicdn.com/legal-agreement/terms/suit_bu1_aliexpress/suit_bu1_aliexpress202204182115_66077.html'"
-      ]
-    }
+    ]
   }
 }
