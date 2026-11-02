@@ -4,9 +4,9 @@
   "schedule": "30 */12 * * *",
   "lastRun": {
     "startDate": "2026-11-02T00:30:04.042Z",
-    "endDate": null,
+    "endDate": "2026-11-02T01:36:43.101Z",
     "engineVersion": "16.3.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "53d23c6d04d98bdcc5d01fc72d4175d58fee8267",
@@ -14,16 +14,30 @@
     "terms": 199
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 178,
+    "failed": 15
   },
   "coverage": {
-    "processed": 0,
+    "processed": 193,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
+    "newFailures": [
+      {
+        "serviceId": "Snapchat",
+        "termsType": "Commercial Terms"
+      },
+      {
+        "serviceId": "Stripchat",
+        "termsType": "Copyright Claims Policy"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Stripchat",
+        "termsType": "Privacy Policy"
+      }
+    ],
     "reasonChanges": []
   },
   "transientErrors": 0
