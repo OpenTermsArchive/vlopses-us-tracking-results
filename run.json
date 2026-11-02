@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-036c743e-a1b5-4a93-b365-a215879d5730",
+  "runId": "ota-run-b353b6bd-08a0-4740-b4e5-31fce0c0e16e",
   "collectionId": "vlopses-us",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-11-02T00:30:04.042Z",
-    "endDate": "2026-11-02T01:36:43.101Z",
+    "startDate": "2026-11-02T12:30:04.032Z",
+    "endDate": null,
     "engineVersion": "16.3.0",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "53d23c6d04d98bdcc5d01fc72d4175d58fee8267",
@@ -14,30 +14,16 @@
     "terms": 199
   },
   "tracked": {
-    "ok": 178,
-    "failed": 15
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 193,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Snapchat",
-        "termsType": "Commercial Terms"
-      },
-      {
-        "serviceId": "Stripchat",
-        "termsType": "Copyright Claims Policy"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Stripchat",
-        "termsType": "Privacy Policy"
-      }
-    ],
+    "newFailures": [],
+    "recoveries": [],
     "reasonChanges": []
   },
   "transientErrors": 0
