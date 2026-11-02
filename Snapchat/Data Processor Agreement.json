@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-01T13:20:03.788Z",
+    "date": "2026-11-02T13:20:20.282Z",
     "serviceName": "Snapchat",
     "sourceDocuments": [
       {
@@ -13,11 +13,8 @@
           "footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "93510ee3c32289c18f2580452aa1d95fbf760e0a"
+        "snapshotId": "c1609837cd3475c371efcd7cba320b2fcab61991"
       }
-    ],
-    "reasons": [
-      "[extraction] Extract failed: The provided selector \"main\" matches an empty content in the web page at 'https://www.snap.com/terms/data-processing-agreement'"
     ]
   }
 }
