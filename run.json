@@ -4,9 +4,9 @@
   "schedule": "30 */12 * * *",
   "lastRun": {
     "startDate": "2026-11-03T00:30:03.966Z",
-    "endDate": null,
+    "endDate": "2026-11-03T01:37:55.342Z",
     "engineVersion": "16.3.0",
-    "status": "in_progress"
+    "status": "completed"
   },
   "declarations": {
     "commit": "53d23c6d04d98bdcc5d01fc72d4175d58fee8267",
@@ -14,17 +14,52 @@
     "terms": 199
   },
   "tracked": {
-    "ok": 0,
-    "failed": 0
+    "ok": 176,
+    "failed": 17
   },
   "coverage": {
-    "processed": 0,
+    "processed": 193,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [],
-    "recoveries": [],
-    "reasonChanges": []
+    "newFailures": [
+      {
+        "serviceId": "Instagram",
+        "termsType": "Terms of Service"
+      },
+      {
+        "serviceId": "Instagram",
+        "termsType": "Law Enforcement Guidelines"
+      },
+      {
+        "serviceId": "Instagram",
+        "termsType": "Content Monetisation Policy"
+      },
+      {
+        "serviceId": "Snapchat",
+        "termsType": "Privacy Policy"
+      },
+      {
+        "serviceId": "Stripchat",
+        "termsType": "Terms of Service"
+      }
+    ],
+    "recoveries": [
+      {
+        "serviceId": "Snapchat",
+        "termsType": "Law Enforcement Guidelines"
+      },
+      {
+        "serviceId": "Stripchat",
+        "termsType": "Acceptable Use Policy"
+      }
+    ],
+    "reasonChanges": [
+      {
+        "serviceId": "Snapchat",
+        "termsType": "Commercial Terms"
+      }
+    ]
   },
   "transientErrors": 0
 }
