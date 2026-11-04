@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-11-03T13:19:50.851Z",
+    "date": "2026-11-04T01:19:51.294Z",
     "serviceName": "Snapchat",
     "sourceDocuments": [
       {
@@ -26,7 +26,7 @@
           "footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "a2356c3c0081b5ffeb71a207e74ebd10fa9d8803"
+        "snapshotId": "94161d693be87ddf6704078b12e7f525bae0550a"
       },
       {
         "id": "privacy-privacy-policy-chd-privacy-policy",
@@ -38,7 +38,7 @@
           "footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "0da4a20f002dd65f5f5379ad18a20987c69b96c5"
+        "snapshotId": "5245e27d90e8ac0e38c0cae35c1b3d1a644fe091"
       },
       {
         "id": "privacy-ads-privacy",
@@ -77,7 +77,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "406afa98969b05a7535249af01630dadff02f3d6"
+        "snapshotId": "9fd7d873bf61bff6c9342e11f21dc52f7aab7ccb"
       },
       {
         "id": "terms-ldu",
@@ -91,7 +91,7 @@
         "fetch": "https://www.snap.com/terms/us-privacy?lang=en-US",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "e527a56a9ae30478d3f667679d9faa0d92576698"
+        "snapshotId": "86f04f7a3851c328583c1a8c43b2cfe10d31f378"
       },
       {
         "id": "terms-personal-data",
@@ -105,12 +105,11 @@
         "fetch": "https://www.snap.com/terms/standard-contractual-clauses?lang=en-US",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "bd357a43c6546a07d893bc15ea072b987b2f24af"
+        "snapshotId": "985668a8e1a9f3d91267e106eb8d61fb6d15820e"
       }
     ],
     "reasons": [
-      "[extraction] Extract failed: The provided selector \".sdsm-page\" matches an empty content in the web page at 'https://www.snap.com/terms/ldu?lang=en-US'",
-      "[extraction] Extract failed: The provided selector \".sdsm-page\" matches an empty content in the web page at 'https://www.snap.com/terms/us-privacy?lang=en-US'"
+      "[extraction] Extract failed: The provided selector \".sdsm-page\" matches an empty content in the web page at 'https://www.snap.com/terms/ldu?lang=en-US'"
     ]
   }
 }
