@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-09-30T00:41:13.846Z",
+    "date": "2026-11-05T13:38:31.300Z",
     "serviceName": "AliExpress",
     "sourceDocuments": [
       {
@@ -14,6 +14,11 @@
         "mimeType": "text/html",
         "snapshotId": "432be1cc8f8ff47861497eca95bb985702547b8c"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Timed out after 30 seconds when trying to fetch 'https://cdn.contract.alibaba.com/terms/c_end_product_protocol/20240529164446731/20240529164446731.html'"
+      ]
+    }
   }
 }
