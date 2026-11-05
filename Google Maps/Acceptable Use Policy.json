@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-09-30T01:10:38.527Z",
+    "date": "2026-11-05T13:38:33.333Z",
     "serviceName": "Google Maps",
     "sourceDocuments": [
       {
@@ -12,8 +12,13 @@
           "nav"
         ],
         "mimeType": "text/html",
-        "snapshotId": "e198fb0f0c22b1b9f488307db8486576f2c7278c"
+        "snapshotId": "aa368d8a8fc5e58712b0b3edb5a33c2cd5302e59"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Network system error ETIMEDOUT occurred when trying to fetch 'https://cloud.google.com/maps-platform/terms/aup'"
+      ]
+    }
   }
 }
