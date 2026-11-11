@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-11-11T01:22:35.949Z",
+    "date": "2026-11-11T13:22:32.406Z",
     "serviceName": "Snapchat",
     "sourceDocuments": [
       {
@@ -27,7 +27,7 @@
           "footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "ae0b65126f99951733fb8291cfb125b36df99e68"
+        "snapshotId": "fd56767f46a753d3b261da48da05dcf291812c21"
       },
       {
         "id": "policy-policy-community-guidelines-threats-violence-harm",
@@ -39,7 +39,7 @@
           "footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "91bc1e5d67dfe74d83bd0d534ee146588549c91f"
+        "snapshotId": "790a4781c873dd275e616d81f4fedbe68e86af84"
       },
       {
         "id": "policy-policy-community-guidelines-illegal-regulated-activities",
@@ -99,8 +99,11 @@
           "footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "62fce1d96a679225a01af19d2d331e6ebc82c793"
+        "snapshotId": "e7cb549a9498f0c08c001dd06e9f10637de65557"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \"main\" matches an empty content in the web page at 'https://values.snap.com/privacy/transparency/community-guidelines/severe-harm?lang=en-US'"
     ]
   }
 }
