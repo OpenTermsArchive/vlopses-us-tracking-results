@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-11T13:22:32.406Z",
+    "date": "2026-11-12T13:22:38.976Z",
     "serviceName": "Snapchat",
     "sourceDocuments": [
       {
@@ -15,7 +15,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "fe6f72ef93d714c6f98923679e644e2f21d5eb7a"
+        "snapshotId": "7cee41e492846e810062dde9833ec5a6155af420"
       },
       {
         "id": "privacy-transparency-community-guidelines-severe-harm",
@@ -27,7 +27,7 @@
           "footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "fd56767f46a753d3b261da48da05dcf291812c21"
+        "snapshotId": "dea6647444ca259a41803205561ecede70927fce"
       },
       {
         "id": "policy-policy-community-guidelines-threats-violence-harm",
@@ -39,7 +39,7 @@
           "footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "790a4781c873dd275e616d81f4fedbe68e86af84"
+        "snapshotId": "d18d4fb3eb33463d4cddf2d6226c9f3f2dd50a38"
       },
       {
         "id": "policy-policy-community-guidelines-illegal-regulated-activities",
@@ -51,7 +51,7 @@
           "footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "d9ca9c75e96b0b48c12d86f81fee37fc31c932fd"
+        "snapshotId": "3de7d4cbcd08095a13bffdf7f0f37961ffd8b548"
       },
       {
         "id": "policy-policy-community-guidelines-hateful-content-terrorism-violent-extremism",
@@ -63,7 +63,7 @@
           "footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "bef7e6f89cbc348851234f2cbd4c87a6829ab2b1"
+        "snapshotId": "e2dd28f06decf7ea27eeff4f3727d7e487742cc1"
       },
       {
         "id": "policy-policy-community-guidelines-harassment-bullying",
@@ -75,7 +75,7 @@
           "footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "28773db13a4c81e2a56b16d7065ef4f75859b881"
+        "snapshotId": "aa37376d4ec96ee4cbd6d2edd98933f178b50b25"
       },
       {
         "id": "policy-policy-community-guidelines-sexual-content",
@@ -87,7 +87,7 @@
           "footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "169f05cc4aad04dd52438b3e94a112b295ffd359"
+        "snapshotId": "6c189759c48826939f1603e6f44515bb78dfb1b6"
       },
       {
         "id": "policy-content-guidelines-recommendation-eligibility-recommendation-eligibility-false-deceptive-information",
@@ -99,11 +99,8 @@
           "footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "e7cb549a9498f0c08c001dd06e9f10637de65557"
+        "snapshotId": "3fb229d6567c01af72de15bebe0aeeda0dd8a07f"
       }
-    ],
-    "reasons": [
-      "[extraction] Extract failed: The provided selector \"main\" matches an empty content in the web page at 'https://values.snap.com/privacy/transparency/community-guidelines/severe-harm?lang=en-US'"
     ]
   }
 }
