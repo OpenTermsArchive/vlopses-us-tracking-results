@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-11-12T13:22:36.452Z",
+    "date": "2026-11-13T01:21:43.662Z",
     "serviceName": "Snapchat",
     "sourceDocuments": [
       {
@@ -26,7 +26,7 @@
           "footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "3905552d6118cc97cbeb4f67e9f43add8b97cc4c"
+        "snapshotId": "e86c5f2434e839b6d7436f08393f8f25b465d32a"
       },
       {
         "id": "privacy-privacy-policy-chd-privacy-policy",
@@ -38,7 +38,7 @@
           "footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "5de327158fdd82fda39120bbc21ad592ae03e167"
+        "snapshotId": "6a2cea748e3e6c6e9eeb7a07324a6284bb7c775b"
       },
       {
         "id": "privacy-ads-privacy",
@@ -77,7 +77,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "213a79e0c9352be7e5ce6f48e0a323c4e347b088"
+        "snapshotId": "563b02164f3c080f4f3f4cdff1edcace48b920eb"
       },
       {
         "id": "terms-ldu",
@@ -91,7 +91,7 @@
         "fetch": "https://www.snap.com/terms/us-privacy?lang=en-US",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "5d03e4bae31db056e044ed098640e14b564281e6"
+        "snapshotId": "b0b4cd5a890cc9cc8bba8bb241c64c5b57b5c21a"
       },
       {
         "id": "terms-personal-data",
@@ -105,12 +105,11 @@
         "fetch": "https://www.snap.com/terms/standard-contractual-clauses?lang=en-US",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "7a6ad8763b70ad94098c6c1d5c44d2f0443c7b96"
+        "snapshotId": "fccfb17aac4206404d2fb30020531025b6ab7bf5"
       }
     ],
     "reasons": [
-      "[extraction] Extract failed: The provided selector \"main\" matches an empty content in the web page at 'https://values.snap.com/privacy/privacy-by-product?lang=en-US'",
-      "[extraction] Extract failed: The provided selector \".sdsm-page\" matches an empty content in the web page at 'https://www.snap.com/terms/us-privacy?lang=en-US'"
+      "[extraction] Extract failed: The provided selector \"main\" matches an empty content in the web page at 'https://values.snap.com/privacy/privacy-by-product?lang=en-US'"
     ]
   }
 }
