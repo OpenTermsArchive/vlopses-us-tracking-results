@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-09-30T01:20:23.372Z",
+    "date": "2026-11-15T01:37:32.372Z",
     "serviceName": "Snapchat",
     "sourceDocuments": [
       {
@@ -14,7 +14,7 @@
           ".footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "6d137fb94aebde07ddccd82884b1b88ecddf8d38"
+        "snapshotId": "53c80ffc23d12682193aed5bafd821e72c02fcee"
       },
       {
         "id": "terms-paid-features",
@@ -25,7 +25,7 @@
           ".footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "155a83a31e7937453ae739979edcedcef0e3fc68"
+        "snapshotId": "34e8766a06e471d5a53bec41cf355f62ece64517"
       },
       {
         "id": "terms-my-selfie",
@@ -36,7 +36,7 @@
           ".footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "410d9db291635ed7f1b62278c33769338e4c0c73"
+        "snapshotId": "cbac6e9dedf2b28d473ddbaa825279733440d470"
       },
       {
         "id": "policies-pcd",
@@ -47,7 +47,7 @@
           ".footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "fb797fc64fd34bd53a8d2d294cbb4ecbd9f97c83"
+        "snapshotId": "88f7f97f0875bf41d527a09f0668e7819408ebbd"
       },
       {
         "id": "terms-create-geofilter",
@@ -58,7 +58,7 @@
           ".footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "675bcb32bc2549e82f13cc425a592b06f5e460ce"
+        "snapshotId": "3867239c73ddfeef91764d724c47a172da079567"
       },
       {
         "id": "terms-lens-studio-terms",
@@ -69,22 +69,27 @@
           ".footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "82bc632b44b172436782c004e9a7fe23fcdda026"
+        "snapshotId": "68abe4254abeeb7e26426a890b71ea34541b3e53"
       },
       {
         "id": "terms-ai-tools",
         "fetch": "https://www.snap.com/terms/ai-tools?lang=en-US",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "db7761f78fadb3dcb99a15b933682c1d21689da6"
+        "snapshotId": "66f9b7ca5d4396247190530dbcaef8bb4e336423"
       },
       {
         "id": "terms-us-amendment",
         "fetch": "https://www.snap.com/terms/us-amendment",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "23a919548a687e6a0002a01187520b9a2dd53035"
+        "snapshotId": "613976c280319218fc19996874662e11cefc8629"
       }
-    ]
+    ],
+    "transientError": {
+      "reasons": [
+        "[fetch] Fetch failed: Network system error ETIMEDOUT occurred when trying to fetch 'https://www.snap.com/terms?lang=en-US'"
+      ]
+    }
   }
 }
