@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "event": {
-    "date": "2026-11-15T01:37:32.372Z",
+    "date": "2026-11-15T13:21:19.415Z",
     "serviceName": "Snapchat",
     "sourceDocuments": [
       {
@@ -14,7 +14,7 @@
           ".footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "53c80ffc23d12682193aed5bafd821e72c02fcee"
+        "snapshotId": "c43272e82106ab920609e4613469b84f28b7d155"
       },
       {
         "id": "terms-paid-features",
@@ -25,7 +25,7 @@
           ".footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "34e8766a06e471d5a53bec41cf355f62ece64517"
+        "snapshotId": "faf1511647fffb7b342ba8baca6790e0919cd038"
       },
       {
         "id": "terms-my-selfie",
@@ -69,7 +69,7 @@
           ".footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "68abe4254abeeb7e26426a890b71ea34541b3e53"
+        "snapshotId": "27c6ab0c076004fa5fe564caaa70ab6b59acb0c6"
       },
       {
         "id": "terms-ai-tools",
@@ -83,13 +83,8 @@
         "fetch": "https://www.snap.com/terms/us-amendment",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "613976c280319218fc19996874662e11cefc8629"
+        "snapshotId": "2898953962698cb0936b0fda373fc67d07190f3d"
       }
-    ],
-    "transientError": {
-      "reasons": [
-        "[fetch] Fetch failed: Network system error ETIMEDOUT occurred when trying to fetch 'https://www.snap.com/terms?lang=en-US'"
-      ]
-    }
+    ]
   }
 }
