@@ -1,7 +1,7 @@
 {
-  "status": "failed",
+  "status": "ok",
   "event": {
-    "date": "2026-11-16T13:22:09.707Z",
+    "date": "2026-11-17T13:21:43.721Z",
     "serviceName": "Snapchat",
     "sourceDocuments": [
       {
@@ -14,7 +14,7 @@
           ".footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "b442b7f20b7b471560e3dacee711aafc54d38f10"
+        "snapshotId": "199c812c7db62f7b215686503a9d9f624f75a6e7"
       },
       {
         "id": "terms-paid-features",
@@ -25,7 +25,7 @@
           ".footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "9822cc9eed00d076c6bcbbe18faf0be0455f6e45"
+        "snapshotId": "fc4874fe648b6c10f4c7fd49e5c293cd4223efa4"
       },
       {
         "id": "terms-my-selfie",
@@ -36,7 +36,7 @@
           ".footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "689d4386ba9739b6d10db3c071fc078a87833f12"
+        "snapshotId": "aae56ccf5c663338d0c5fbab1aae81ad3e1e2ce5"
       },
       {
         "id": "policies-pcd",
@@ -47,7 +47,7 @@
           ".footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "aa2a5bad3f5438a620e24adcf14317030148e3c8"
+        "snapshotId": "878e7ec64c009d464f292d819efb1c7d7db43db8"
       },
       {
         "id": "terms-create-geofilter",
@@ -58,7 +58,7 @@
           ".footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "c8b8032b9fe22044b0cd1d97023e186b92866696"
+        "snapshotId": "40b6df7ca1ed51bb721abc22e2a0b456b7bfdc8b"
       },
       {
         "id": "terms-lens-studio-terms",
@@ -69,25 +69,22 @@
           ".footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "b48a6d5a3d2109dda95143c92447e988d332dec5"
+        "snapshotId": "50150e3002cffe103710b3c55aecbbeca5f89c55"
       },
       {
         "id": "terms-ai-tools",
         "fetch": "https://www.snap.com/terms/ai-tools?lang=en-US",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "da54727fddfe822ef3475bd6158f2198f5f33e0a"
+        "snapshotId": "4c8dd4d42369877f90193e917c69d9ee016326df"
       },
       {
         "id": "terms-us-amendment",
         "fetch": "https://www.snap.com/terms/us-amendment",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "f794e63de20fecd94c1f4433530e589dc7485357"
+        "snapshotId": "a0dade689871ebc0c9d310708864054206deacad"
       }
-    ],
-    "reasons": [
-      "[extraction] Extract failed: The provided selector \".sdsm-page\" matches an empty content in the web page at 'https://www.snap.com/terms/ai-tools?lang=en-US'"
     ]
   }
 }
