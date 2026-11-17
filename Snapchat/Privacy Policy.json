@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-11-17T01:23:00.095Z",
+    "date": "2026-11-17T13:21:46.648Z",
     "serviceName": "Snapchat",
     "sourceDocuments": [
       {
@@ -26,7 +26,7 @@
           "footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "b9b988e2ba9f4dbfe96306fd579858bbf2a31b4f"
+        "snapshotId": "d95e6d00583ce49a11840b217c344808f634394e"
       },
       {
         "id": "privacy-privacy-policy-chd-privacy-policy",
@@ -38,7 +38,7 @@
           "footer"
         ],
         "mimeType": "text/html",
-        "snapshotId": "a7866b74a0dfd500f302025320fbe54c021e8db5"
+        "snapshotId": "b980564f7ea5465d864b7614b976347588de70ba"
       },
       {
         "id": "privacy-ads-privacy",
@@ -77,7 +77,7 @@
           "img"
         ],
         "mimeType": "text/html",
-        "snapshotId": "1e9d653a066fcdb1b3292411e806898207dfe0a8"
+        "snapshotId": "c49c5d0af9fdcff6ce8b0dbf00800c1d5bdada5e"
       },
       {
         "id": "terms-ldu",
@@ -91,7 +91,7 @@
         "fetch": "https://www.snap.com/terms/us-privacy?lang=en-US",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "b4003e430ce42c802307856735d5fe5212afc5b4"
+        "snapshotId": "95c4637163b771bbfe4f697a6e6c602d642bc499"
       },
       {
         "id": "terms-personal-data",
@@ -105,11 +105,10 @@
         "fetch": "https://www.snap.com/terms/standard-contractual-clauses?lang=en-US",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "5598956d7d7b30631bd0d546d8207791135428f4"
+        "snapshotId": "80a45e2784bd67d946900de31cbe5ae85dcf015b"
       }
     ],
     "reasons": [
-      "[extraction] Extract failed: The provided selector \".sdsm-page\" matches an empty content in the web page at 'https://www.snap.com/terms/us-privacy?lang=en-US'",
       "[extraction] Extract failed: The provided selector \".sdsm-page\" matches an empty content in the web page at 'https://www.snap.com/terms/personal-data?lang=en-US'"
     ]
   }
