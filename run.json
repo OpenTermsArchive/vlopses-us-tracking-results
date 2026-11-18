@@ -4,9 +4,9 @@
   "schedule": "30 */12 * * *",
   "lastRun": {
     "startDate": "2026-11-18T12:30:04.141Z",
-    "endDate": null,
+    "endDate": "2026-11-18T13:10:30.857Z",
     "engineVersion": "17.0.1",
-    "status": "in_progress"
+    "status": "crashed"
   },
   "declarations": {
     "commit": "bf9295888a0c454f75f14d7707269299774c2589",
@@ -19,7 +19,1003 @@
   },
   "coverage": {
     "processed": 0,
-    "skipped": []
+    "skipped": [
+      {
+        "serviceId": "AliExpress",
+        "termsType": "Terms of Service",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "AliExpress",
+        "termsType": "Commercial Terms",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "AliExpress",
+        "termsType": "Privacy Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "AliExpress",
+        "termsType": "Marketplace Sellers Conditions",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "AliExpress",
+        "termsType": "Copyright Claims Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "AliExpress",
+        "termsType": "Community Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "AliExpress",
+        "termsType": "Affiliate Agreement",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "AliExpress",
+        "termsType": "Trackers Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "AliExpress",
+        "termsType": "General Conditions of Sale",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "App Store",
+        "termsType": "Terms of Service",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "App Store",
+        "termsType": "Review Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "App Store",
+        "termsType": "Developer Terms",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "App Store",
+        "termsType": "Brand Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "App Store",
+        "termsType": "Privacy Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "App Store",
+        "termsType": "Complaints Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Bing",
+        "termsType": "Terms of Service",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Bing",
+        "termsType": "Copyright Claims Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Bing",
+        "termsType": "Privacy Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Bing",
+        "termsType": "Acceptable Use Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Bing",
+        "termsType": "Review Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Bing",
+        "termsType": "Platform to Business Notice",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Bing",
+        "termsType": "Quality Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Bing",
+        "termsType": "Editorial Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Bing",
+        "termsType": "Ranking Parameters Description",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Bing",
+        "termsType": "Restricted Use Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Bing",
+        "termsType": "Developer Terms",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Facebook",
+        "termsType": "Trackers Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Facebook",
+        "termsType": "Terms of Service",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Facebook",
+        "termsType": "Privacy Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Facebook",
+        "termsType": "Developer Terms",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Facebook",
+        "termsType": "Data Processor Agreement",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Facebook",
+        "termsType": "Commercial Terms",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Facebook",
+        "termsType": "Live Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Facebook",
+        "termsType": "Law Enforcement Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Facebook",
+        "termsType": "Brand Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Facebook",
+        "termsType": "Copyright Claims Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Facebook",
+        "termsType": "Community Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Facebook",
+        "termsType": "Human Rights Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Facebook",
+        "termsType": "Acceptable Use Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Google Maps",
+        "termsType": "Terms of Service",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Google Maps",
+        "termsType": "Imprint",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Google Maps",
+        "termsType": "Privacy Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Google Maps",
+        "termsType": "Developer Terms",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Google Maps",
+        "termsType": "Complaints Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Google Maps",
+        "termsType": "Data Processor Agreement",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Google Maps",
+        "termsType": "Acceptable Use Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Google Maps",
+        "termsType": "Brand Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Google Maps",
+        "termsType": "Service Level Agreement",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Google Maps",
+        "termsType": "Restricted Use Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Google Play",
+        "termsType": "Developer Terms",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Google Play",
+        "termsType": "Terms of Service",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Google Play",
+        "termsType": "Brand Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Google Play",
+        "termsType": "Copyright Claims Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Google Play",
+        "termsType": "Community Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Google Play",
+        "termsType": "Privacy Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Google Play",
+        "termsType": "Quality Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Google Shopping",
+        "termsType": "Marketplace Sellers Conditions",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Google Shopping",
+        "termsType": "Privacy Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Google Shopping",
+        "termsType": "Terms of Service",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Instagram",
+        "termsType": "Terms of Service",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Instagram",
+        "termsType": "Privacy Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Instagram",
+        "termsType": "Community Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Instagram",
+        "termsType": "Law Enforcement Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Instagram",
+        "termsType": "Developer Terms",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Instagram",
+        "termsType": "Trackers Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Instagram",
+        "termsType": "Commercial Terms",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Instagram",
+        "termsType": "Content Monetisation Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "LinkedIn",
+        "termsType": "Terms of Service",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "LinkedIn",
+        "termsType": "Privacy Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "LinkedIn",
+        "termsType": "Trackers Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "LinkedIn",
+        "termsType": "Accessibility Statement",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "LinkedIn",
+        "termsType": "Copyright Claims Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "LinkedIn",
+        "termsType": "Brand Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "LinkedIn",
+        "termsType": "Community Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "LinkedIn",
+        "termsType": "Developer Terms",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "LinkedIn",
+        "termsType": "Data Processor Agreement",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "LinkedIn",
+        "termsType": "Law Enforcement Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "LinkedIn",
+        "termsType": "Imprint",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Pinterest",
+        "termsType": "Terms of Service",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Pinterest",
+        "termsType": "Privacy Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Pinterest",
+        "termsType": "Community Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Pinterest",
+        "termsType": "Copyright Claims Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Pinterest",
+        "termsType": "Trackers Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Pinterest",
+        "termsType": "Brand Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Pinterest",
+        "termsType": "Law Enforcement Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Pinterest",
+        "termsType": "Developer Terms",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Pinterest",
+        "termsType": "Marketplace Sellers Conditions",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Pinterest",
+        "termsType": "Commercial Terms",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Pornhub",
+        "termsType": "Law Enforcement Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Pornhub",
+        "termsType": "Copyright Claims Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Pornhub",
+        "termsType": "Privacy Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Pornhub",
+        "termsType": "Terms of Service",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Pornhub",
+        "termsType": "Acceptable Use Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Pornhub",
+        "termsType": "Community Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Pornhub",
+        "termsType": "Marketplace Sellers Conditions",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Pornhub",
+        "termsType": "Human Rights Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Pornhub",
+        "termsType": "Trackers Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Pornhub",
+        "termsType": "Quality Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Pornhub",
+        "termsType": "Ranking Parameters Description",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Shein",
+        "termsType": "Terms of Service",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Shein",
+        "termsType": "Privacy Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Shein",
+        "termsType": "Human Rights Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Shein",
+        "termsType": "Anti-corruption Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Shein",
+        "termsType": "General Conditions of Sale",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Shein",
+        "termsType": "Copyright Claims Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Shein",
+        "termsType": "Data Processor Agreement",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Shein",
+        "termsType": "Commercial Terms",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Shein",
+        "termsType": "Marketplace Sellers Conditions",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Shein",
+        "termsType": "Imprint",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Shein",
+        "termsType": "Accessibility Statement",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Snapchat",
+        "termsType": "Terms of Service",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Snapchat",
+        "termsType": "Privacy Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Snapchat",
+        "termsType": "Trackers Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Snapchat",
+        "termsType": "Community Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Snapchat",
+        "termsType": "Editorial Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Snapchat",
+        "termsType": "Developer Terms",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Snapchat",
+        "termsType": "Law Enforcement Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Snapchat",
+        "termsType": "Data Processor Agreement",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Snapchat",
+        "termsType": "Content Monetisation Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Snapchat",
+        "termsType": "Commercial Terms",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Stripchat",
+        "termsType": "Terms of Service",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Stripchat",
+        "termsType": "Copyright Claims Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Stripchat",
+        "termsType": "Privacy Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Stripchat",
+        "termsType": "Trackers Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Stripchat",
+        "termsType": "Acceptable Use Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Stripchat",
+        "termsType": "Community Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Stripchat",
+        "termsType": "Marketplace Sellers Conditions",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Telegram",
+        "termsType": "Privacy Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Telegram",
+        "termsType": "Terms of Service",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Temu",
+        "termsType": "Community Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Temu",
+        "termsType": "Privacy Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Temu",
+        "termsType": "Copyright Claims Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Temu",
+        "termsType": "Terms of Service",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Temu",
+        "termsType": "General Conditions of Sale",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Temu",
+        "termsType": "Commercial Terms",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Temu",
+        "termsType": "Law Enforcement Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Temu",
+        "termsType": "Affiliate Agreement",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "TikTok",
+        "termsType": "Terms of Service",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "TikTok",
+        "termsType": "Privacy Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "TikTok",
+        "termsType": "Community Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "TikTok",
+        "termsType": "Copyright Claims Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "TikTok",
+        "termsType": "Law Enforcement Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "TikTok",
+        "termsType": "Trackers Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "TikTok",
+        "termsType": "In-App Purchases Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "TikTok",
+        "termsType": "Developer Terms",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "TikTok",
+        "termsType": "Data Processor Agreement",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "TikTok",
+        "termsType": "Content Monetisation Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "TikTok",
+        "termsType": "Review Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "TikTok",
+        "termsType": "Commercial Terms",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "WhatsApp",
+        "termsType": "Privacy Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "WhatsApp",
+        "termsType": "Terms of Service",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "WhatsApp",
+        "termsType": "Acceptable Use Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "WhatsApp",
+        "termsType": "Trackers Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "WhatsApp",
+        "termsType": "Data Processor Agreement",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "WhatsApp",
+        "termsType": "Copyright Claims Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "WhatsApp",
+        "termsType": "Commercial Terms",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "WhatsApp",
+        "termsType": "Community Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "WhatsApp",
+        "termsType": "Marketplace Sellers Conditions",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Wikipedia",
+        "termsType": "Privacy Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Wikipedia",
+        "termsType": "Terms of Service",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Wikipedia",
+        "termsType": "Community Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Wikipedia",
+        "termsType": "Complaints Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Wikipedia",
+        "termsType": "Developer Terms",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Wikipedia",
+        "termsType": "Acceptable Use Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Wikipedia",
+        "termsType": "Commercial Terms",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Wikipedia",
+        "termsType": "Copyright Claims Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Wikipedia",
+        "termsType": "Human Rights Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "Wikipedia",
+        "termsType": "Brand Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "X",
+        "termsType": "Accessibility Statement",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "X",
+        "termsType": "Developer Terms",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "X",
+        "termsType": "Trackers Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "X",
+        "termsType": "Privacy Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "X",
+        "termsType": "Terms of Service",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "X",
+        "termsType": "Law Enforcement Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "X",
+        "termsType": "Copyright Claims Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "X",
+        "termsType": "Data Processor Agreement",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "X",
+        "termsType": "Community Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "X",
+        "termsType": "Content Monetisation Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "X",
+        "termsType": "Brand Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "XNXX",
+        "termsType": "Copyright Claims Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "XNXX",
+        "termsType": "Acceptable Use Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "XNXX",
+        "termsType": "Privacy Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "XNXX",
+        "termsType": "Terms of Service",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "XNXX",
+        "termsType": "Trackers Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "XVideos",
+        "termsType": "Copyright Claims Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "XVideos",
+        "termsType": "Acceptable Use Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "XVideos",
+        "termsType": "Trackers Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "XVideos",
+        "termsType": "Privacy Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "XVideos",
+        "termsType": "Terms of Service",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "YouTube",
+        "termsType": "Copyright Claims Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "YouTube",
+        "termsType": "Terms of Service",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "YouTube",
+        "termsType": "Commercial Terms",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "YouTube",
+        "termsType": "Privacy Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "YouTube",
+        "termsType": "Developer Terms",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "YouTube",
+        "termsType": "Brand Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "YouTube",
+        "termsType": "Community Guidelines",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "YouTube",
+        "termsType": "Content Monetisation Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "YouTube",
+        "termsType": "Data Processor Agreement",
+        "reason": "no outcome recorded before the engine crashed"
+      },
+      {
+        "serviceId": "YouTube",
+        "termsType": "Complaints Policy",
+        "reason": "no outcome recorded before the engine crashed"
+      }
+    ]
   },
   "transitions": {
     "newFailures": [],
