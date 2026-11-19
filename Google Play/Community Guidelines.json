@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-09-30T01:12:42.522Z",
+    "date": "2026-11-19T01:15:14.195Z",
     "serviceName": "Google Play",
     "sourceDocuments": [
       {
@@ -20,7 +20,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "f09d37ab42bf030237556cf521c73160e810b6fc"
+        "snapshotId": "1315173fea7052bacba8c64825024356c40706f3"
       },
       {
         "id": "googleplay-android-developer-answer-9878810",
@@ -29,7 +29,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "08772c902a37bc1c6324ddf886c6b0d5c2c7d9bb"
+        "snapshotId": "ab506da2cdfd5f6a3d0358aeb08fe4b7c2b95e80"
       },
       {
         "id": "googleplay-android-developer-answer-11917020",
@@ -38,7 +38,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "d3a89e5f9e473f75f67dbe9f766fa9ec823487d2"
+        "snapshotId": "53c1a1a20028458ac3e9df3c7fccb5c1a7802c84"
       },
       {
         "id": "googleplay-android-developer-answer-9876821",
@@ -47,7 +47,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "df9ec641ad837eb19a789f47130fb545cfaa569b"
+        "snapshotId": "0601e12dfe83fb63997c61737aab13ba12e50685"
       },
       {
         "id": "googleplay-android-developer-answer-9877032",
@@ -56,7 +56,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "880e3bd5669dd91d2a6fd92415a90d155886d0d8"
+        "snapshotId": "ab57e9ddff8b76d773c7caab3cfc1245b35b5194"
       },
       {
         "id": "googleplay-android-developer-answer-9878877",
@@ -65,7 +65,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "2d1f52104f05b879640b92c54cb62cc5a9d06ef9"
+        "snapshotId": "936aae16edba17cdbc7a806cb0b1a9d898ed6522"
       },
       {
         "id": "googleplay-android-developer-answer-9876937",
@@ -74,7 +74,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "0519cb40245124fd38778bcf752e061dbf132154"
+        "snapshotId": "cd7f9b218ae284be0e08254c1b3a78c0efebec7e"
       },
       {
         "id": "googleplay-android-developer-answer-13607354",
@@ -83,7 +83,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "0c498e6d3afd7e92bd841e4382c2ab839b33d79f"
+        "snapshotId": "31c825c2069b2bc6d8304270102ccd3dbfe41976"
       },
       {
         "id": "googleplay-android-developer-answer-13985936",
@@ -92,7 +92,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "b2c89ea684d895718dad30b8f2612bd8e140dd72"
+        "snapshotId": "70c4068da60ab39d9317e0ce9d47811ae7dbe265"
       },
       {
         "id": "googleplay-android-developer-answer-16302285",
@@ -101,7 +101,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "0594c9bddf107f3b36d6544d75b797057f3ff0b7"
+        "snapshotId": "d1a4b68fa20add56b91aca8f9db4abe53930e5c0"
       },
       {
         "id": "googleplay-android-developer-answer-16273414",
@@ -110,7 +110,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "fbde4eca10c607aa70c2cc57c5586777cb1b92bc"
+        "snapshotId": "f0ee6c82e1eee30d573a6f6f6326fc3348a906bd"
       },
       {
         "id": "googleplay-android-developer-answer-9888689",
@@ -119,7 +119,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "572d155bc333c72e33bd467c3cca1707d849b683"
+        "snapshotId": "a69471ca4312a69f0618f71c2e8a5400d921d732"
       },
       {
         "id": "googleplay-android-developer-answer-9888380",
@@ -128,7 +128,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "dd66e5e73a5152d74f517d13a8e2b6682cd23518"
+        "snapshotId": "aa08a6e460c5fff78f83edb07b53e5b9e393c7c5"
       },
       {
         "id": "googleplay-android-developer-answer-9888374",
@@ -137,7 +137,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "4bfcd133157b459b1de00da99df39103c73d6ea0"
+        "snapshotId": "326514c7b18b272bb1e9642d5344e2f80d90fd87"
       },
       {
         "id": "googleplay-android-developer-answer-9970222",
@@ -146,7 +146,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "7ab7d950bf255c5d7a3df1c306626fe3acdc94b1"
+        "snapshotId": "097c5d1985f15fdf74fab75dbe5db63a53d3bc24"
       },
       {
         "id": "googleplay-android-developer-answer-11189134",
@@ -155,7 +155,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "058e93937dd8af5839576fff6b14068786eff0fd"
+        "snapshotId": "37053c185c84f49c708d947c135c8d2b251670b3"
       },
       {
         "id": "googleplay-android-developer-answer-9969955",
@@ -164,7 +164,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "0bd5a7a4284aea08b9de51e0b14c6f95130619f7"
+        "snapshotId": "d354a8727c89bec599487bef630b61cdae8aa91e"
       },
       {
         "id": "googleplay-android-developer-answer-9969861",
@@ -173,7 +173,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "2db7694407cd355dbab8a11deeb17212fbb51bd9"
+        "snapshotId": "41cb36bd87c6ec13d1c1ffa364f9416097d9063b"
       },
       {
         "id": "googleplay-android-developer-answer-10148323",
@@ -182,7 +182,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "8a28200d4f9feaa8af119913371f286aa1b631d9"
+        "snapshotId": "a058e73b1279b9879191878e4628999444312a86"
       },
       {
         "id": "googleplay-android-developer-answer-9857753",
@@ -191,7 +191,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "4a8934f7fb622b7ac5dabe3cc7e4f4b0c362da09"
+        "snapshotId": "6f2cbbc7fdd54f1efd1d79f8152131c98aa99ff7"
       },
       {
         "id": "googleplay-android-developer-answer-9899004",
@@ -200,7 +200,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "9be66d33426cf98219b31d49bf0c59979fb3b0a0"
+        "snapshotId": "198f4a31baeeaf405d0a6da5929994f02e62d9ac"
       },
       {
         "id": "googleplay-android-developer-answer-9898842",
@@ -209,7 +209,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "3d9beebcea20495066e778054769e6c43916e16d"
+        "snapshotId": "1bc2931305ddd0f28f8a1b9eff69f7b8d8c68e10"
       },
       {
         "id": "googleplay-android-developer-answer-9898684",
@@ -218,7 +218,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "5386f78f2427d621bc97a3622e2a5520ecdcea1a"
+        "snapshotId": "d7ae4223e323f1efcbc326e741537a34b7307c59"
       },
       {
         "id": "googleplay-android-developer-answer-9935326",
@@ -227,7 +227,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "958f6256c361c54c6e6fcc85874c4b40816287b0"
+        "snapshotId": "c14dc47ecc6c6f2158a68cf7dd004dd4a9eba6a2"
       },
       {
         "id": "googleplay-android-developer-answer-9899034",
@@ -236,7 +236,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "626493a31edb39428ce2afa96d3c9047af21ed20"
+        "snapshotId": "73bc697866bec3ca37959e4011718791fec5b77f"
       },
       {
         "id": "googleplay-android-developer-answer-9898783",
@@ -245,7 +245,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "ec898a75f4b351cbd8b26bc9e950f9e7ac6fce82"
+        "snapshotId": "222a59d6b70a70684cc22f7e60a743b50d598a8a"
       },
       {
         "id": "googleplay-android-developer-answer-9893335",
@@ -254,7 +254,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "3cdd7b16df92de8677605b70301d3f2519014218"
+        "snapshotId": "059e00b686aebb8fc69169a5ff5f7415d21a5afd"
       },
       {
         "id": "googleplay-android-developer-answer-10146128",
@@ -263,7 +263,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "3935ac94beaf12948f6bf2b80c54bcc5b66b1971"
+        "snapshotId": "8b9c11a3a23a4f4d0b3844df061089c4636ea33c"
       },
       {
         "id": "googleplay-android-developer-answer-9899234",
@@ -272,7 +272,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "3aefe614673d8d1179e6bcea69046a4af6eecae8"
+        "snapshotId": "6711af3781ce75765644e3c2dd82a8837981d27c"
       },
       {
         "id": "googleplay-android-developer-answer-9899142",
@@ -281,7 +281,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "085adb48dfadb72647b5088e79a87fe5a9ebb892"
+        "snapshotId": "4c2a498f76664c59a904bc1928d99245ae311ebd"
       },
       {
         "id": "googleplay-android-developer-answer-9958766",
@@ -290,7 +290,7 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "af24ebe09b0bbd2e0ddd41b519804925f47b56ed"
+        "snapshotId": "740645d32ddf90f28208b4cad4f495ede5a45c9a"
       },
       {
         "id": "googleplay-android-developer-answer-9959788",
@@ -299,8 +299,11 @@
         "remove": ".example,.scClientFeedbackInlineFeedbacklinkroot",
         "executeClientScripts": true,
         "mimeType": "text/html",
-        "snapshotId": "0cfeff7de8fabd3691afc56c2bcefd46083d7061"
+        "snapshotId": "78eb4a4ca4108579aafe28b4eb9da24977a5aba1"
       }
+    ],
+    "reasons": [
+      "[extraction] Extract failed: The provided selector \".article-container\" has no match in the web page at 'https://support.google.com/googleplay/android-developer/answer/9899034?hl=en-US'. This could be due to elements being removed before content selection if \"remove\" and \"select\" selectors match the same content."
     ]
   }
 }
