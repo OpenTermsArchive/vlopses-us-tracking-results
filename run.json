@@ -1,12 +1,12 @@
 {
-  "runId": "ota-run-936b9e6b-00dc-4533-b5e5-843a74c66e30",
+  "runId": "ota-run-0085b011-f561-4567-8617-32fb96ec2bb8",
   "collectionId": "vlopses-us",
   "schedule": "30 */12 * * *",
   "lastRun": {
-    "startDate": "2026-11-24T00:30:04.346Z",
-    "endDate": "2026-11-24T01:35:10.004Z",
+    "startDate": "2026-11-24T12:30:04.302Z",
+    "endDate": null,
     "engineVersion": "17.0.2",
-    "status": "completed"
+    "status": "in_progress"
   },
   "declarations": {
     "commit": "2204b4c11e7751fb78e3eeec8192ece8e2033c03",
@@ -14,30 +14,16 @@
     "terms": 199
   },
   "tracked": {
-    "ok": 180,
-    "failed": 13
+    "ok": 0,
+    "failed": 0
   },
   "coverage": {
-    "processed": 193,
+    "processed": 0,
     "skipped": []
   },
   "transitions": {
-    "newFailures": [
-      {
-        "serviceId": "Snapchat",
-        "termsType": "Privacy Policy"
-      },
-      {
-        "serviceId": "Snapchat",
-        "termsType": "Community Guidelines"
-      }
-    ],
-    "recoveries": [
-      {
-        "serviceId": "Snapchat",
-        "termsType": "Commercial Terms"
-      }
-    ],
+    "newFailures": [],
+    "recoveries": [],
     "reasonChanges": []
   },
   "transientErrors": 0
