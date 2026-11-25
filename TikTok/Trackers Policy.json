@@ -1,7 +1,7 @@
 {
-  "status": "ok",
+  "status": "failed",
   "event": {
-    "date": "2026-11-17T13:26:21.594Z",
+    "date": "2026-11-25T01:23:47.284Z",
     "serviceName": "TikTok",
     "sourceDocuments": [
       {
@@ -10,9 +10,12 @@
         "select": [
           "#policy-card"
         ],
-        "mimeType": "text/html",
-        "snapshotId": "a9963361a081b14bab62c6329597cc098405188f"
+        "mimeType": null,
+        "snapshotId": null
       }
+    ],
+    "reasons": [
+      "[fetch] Fetch failed: Received an empty content when fetching 'https://www.tiktok.com/legal/page/global/tiktok-website-cookies-policy/en'"
     ]
   }
 }
