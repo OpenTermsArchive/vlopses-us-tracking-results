@@ -1,7 +1,7 @@
 {
   "status": "failed",
   "event": {
-    "date": "2026-11-26T01:19:11.929Z",
+    "date": "2026-11-26T13:20:21.476Z",
     "serviceName": "Snapchat",
     "sourceDocuments": [
       {
@@ -16,7 +16,7 @@
         "fetch": "https://www.snap.com/terms/snap-audience-match?lang=en-US",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "9c17ff5c2d270f6f367a2dcfcd7c9779980504ac"
+        "snapshotId": "307c54e0e7d021e7c5efce2be77a552a21efffeb"
       },
       {
         "id": "terms-cst",
@@ -30,7 +30,7 @@
         "fetch": "https://www.snap.com/terms/catalog?lang=en-US",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "3a8ac92f49b4f28f5ab9fc0474289e13d124bf25"
+        "snapshotId": "001d6d1a39b7b9d810a6013eec9385cdd67db39d"
       },
       {
         "id": "terms-self-serve-advertising",
@@ -58,11 +58,10 @@
         "fetch": "https://www.snap.com/terms/payment?lang=en-US",
         "select": ".sdsm-page",
         "mimeType": "text/html",
-        "snapshotId": "ad4d8486d50e03005214d778304f196ebef0c626"
+        "snapshotId": "0836e4f0d2eb6df746baab25bd37cca6d02da115"
       }
     ],
     "reasons": [
-      "[extraction] Extract failed: The provided selector \".sdsm-page\" matches an empty content in the web page at 'https://www.snap.com/terms/catalog?lang=en-US'",
       "[extraction] Extract failed: The provided selector \".sdsm-page\" matches an empty content in the web page at 'https://www.snap.com/terms/business-services?lang=en-US'"
     ]
   }
